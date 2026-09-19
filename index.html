@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" data-accent="aomidori">
+<!-- ============================================================
+     このファイルは雛形です。直接編集してもトップページは変わりません。
+     本文を直すのは  data/profile.json  と  data/selected.json 。
+     そのあと  python3 tools/sync.py  を実行すると index.html が再生成されます。
+     差し色を蘇芳に戻すときは、上の data-accent を "suou" にしてから再生成。
+     ============================================================ -->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Takuya Kawasaki · 川﨑 拓也</title>
+<meta name="description" content="Takuya Kawasaki — Assistant Professor, The University of Tokyo. How precisely can an interferometer measure, and what sets that limit? I have worked across a wide range of them…">
+<link rel="canonical" href="https://takuya-kawasaki.com/">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Takuya Kawasaki · 川﨑 拓也">
+<meta property="og:description" content="Takuya Kawasaki — Assistant Professor, The University of Tokyo. How precisely can an interferometer measure, and what sets that limit? I have worked across a wide range of them…">
+<meta property="og:url" content="https://takuya-kawasaki.com/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..600;1,6..72,300..500&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&family=Zen+Old+Mincho:wght@400;700&family=Zen+Kaku+Gothic+New:wght@400;500&display=swap">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/site.css?v=693cd40a">
+<script type="application/ld+json">{
+ "@context": "https://schema.org",
+ "@type": "Person",
+ "name": "Takuya Kawasaki",
+ "alternateName": [
+  "川﨑 拓也",
+  "川崎 拓也",
+  "川﨑拓也",
+  "川崎拓也",
+  "カワサキ タクヤ"
+ ],
+ "jobTitle": "Assistant Professor",
+ "email": "mailto:takuya.kawasaki@phys.s.u-tokyo.ac.jp",
+ "url": "https://takuya-kawasaki.com/",
+ "affiliation": {
+  "@type": "Organization",
+  "name": "Department of Physics, Graduate School of Science, The University of Tokyo"
+ },
+ "identifier": "https://orcid.org/0000-0001-5839-1700",
+ "sameAs": [
+  "https://orcid.org/0000-0001-5839-1700",
+  "https://researchmap.jp/takuya_kawasaki",
+  "https://scholar.google.com/citations?user=-ry0xrMAAAAJ",
+  "https://inspirehep.net/authors/1926092",
+  "https://arxiv.org/a/0000-0001-5839-1700",
+  "https://github.com/tkawasaki-phys"
+ ],
+ "knowsAbout": [
+  "Gravitational-wave telescopes and quantum noise",
+  "Macroscopic quantum mechanics",
+  "Atom interferometry",
+  "Dark matter searches with precision measurement",
+  "gravitational-wave telescope",
+  "standard quantum limit",
+  "optical spring",
+  "detuned cavity",
+  "back-action evasion",
+  "milligram oscillator",
+  "quantum radiation pressure noise",
+  "optical trapping",
+  "atom interferometer",
+  "phase-modulation readout",
+  "inertial sensing",
+  "axion",
+  "vector dark matter",
+  "levitated nanoparticle"
+ ]
+}</script>
+</head>
+<body>
+<header class="bar">
+  <div class="bar-in">
+    <a class="mark" href="index.html"><span class="seal" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M1.80 12.4 C2.60 9.60 5.2 7.20 9.50 7.20 C13.5 7.20 16.3 9.30 17.60 10.61 L17.60 13.39 C16.3 14.70 13.5 16.80 9.50 16.80 C5.2 16.80 2.60 14.40 1.80 12.4ZM5.65 11.60A1.05 1.05 0 1 0 7.75 11.60A1.05 1.05 0 1 0 5.65 11.60ZM7.98 11.60A1.05 1.05 0 1 0 10.08 11.60A1.05 1.05 0 1 0 7.98 11.60ZM10.30 11.60A1.05 1.05 0 1 0 12.40 11.60A1.05 1.05 0 1 0 10.30 11.60ZM12.62 11.60A1.05 1.05 0 1 0 14.73 11.60A1.05 1.05 0 1 0 12.62 11.60ZM14.95 11.60A1.05 1.05 0 1 0 17.05 11.60A1.05 1.05 0 1 0 14.95 11.60ZM7.24 14.30A0.36 0.36 0 1 0 7.96 14.30A0.36 0.36 0 1 0 7.24 14.30ZM9.57 14.30A0.36 0.36 0 1 0 10.28 14.30A0.36 0.36 0 1 0 9.57 14.30ZM11.89 14.30A0.36 0.36 0 1 0 12.61 14.30A0.36 0.36 0 1 0 11.89 14.30ZM14.22 14.30A0.36 0.36 0 1 0 14.93 14.30A0.36 0.36 0 1 0 14.22 14.30ZM3.10 10.50A1.40 1.40 0 1 0 5.90 10.50A1.40 1.40 0 1 0 3.10 10.50Z"/><path d="M17.30 10.41 L22.50 7.30 C21.80 10.59 21.80 13.41 22.50 16.70 L17.30 13.59ZM8.4 7.70 C9.3 5.00 11.5 5.40 12.5 7.60ZM14.8 9.40 C15.3 8.20 16.1 8.40 16.2 9.70ZM6.8 15.30 C6.2 18.00 7.6 18.20 9.0 16.10ZM12.6 15.50 C13.0 17.80 14.2 17.50 14.8 15.20Z"/></svg></span><b data-en="Takuya Kawasaki" data-ja="川﨑 拓也">Takuya Kawasaki</b></a>
+    <nav><a href="index.html#research" aria-current="page" data-en="Research" data-ja="研究">Research</a><a href="publications.html" data-en="Publications" data-ja="業績">Publications</a><a href="index.html#contact" data-en="Contact" data-ja="連絡先">Contact</a></nav>
+    <div class="langs" role="group" aria-label="Language">
+      <button class="langbtn" data-lang="en" aria-pressed="true">EN</button>
+      <button class="langbtn" data-lang="ja" aria-pressed="false">JA</button>
+    </div>
+  </div>
+</header>
+<main id="top">
+<div class="hero">
+  <div class="portrait">
+    <img src="assets/portrait.jpg?v=c11f28e4" alt="Takuya Kawasaki" width="640" height="800">
+  </div>
+  <div class="hero-txt">
+    <h1 data-en="Takuya Kawasaki" data-ja="川﨑 拓也">Takuya Kawasaki</h1>
+    <p class="role" data-en="Assistant Professor · Department of Physics, Graduate School of Science, The University of Tokyo" data-ja="助教 · 東京大学 大学院理学系研究科 物理学専攻">Assistant Professor · Department of Physics, Graduate School of Science, The University of Tokyo</p>
+    <p class="statement" data-en="How precisely can an interferometer measure, and what sets that limit? I have worked across a wide range of them — kilometre-scale gravitational-wave detectors, milligram-scale mirrors held by light, interferometers that use atoms rather than photons — and the question has been the same each time. The floor is set by thermal fluctuation and by quantum mechanics itself, and past it lie the quantum behaviour of macroscopic objects, dark matter, and whatever we have not yet found." data-ja="干渉計で測れる限界はどこにあり、それを決めているものは何か。重力波望遠鏡からミリグラムスケールの鏡、光のかわりに原子を使う干渉計まで、規模も手段もちがう装置をあつかってきましたが、問いはいつも同じでした。感度の底を決めているのは熱ゆらぎや量子力学そのもので、その先には巨視的な物体の量子性、ダークマター、まだ見つかっていない何かがあります。">How precisely can an interferometer measure, and what sets that limit? I have worked across a wide range of them — kilometre-scale gravitational-wave detectors, milligram-scale mirrors held by light, interferometers that use atoms rather than photons — and the question has been the same each time. The floor is set by thermal fluctuation and by quantum mechanics itself, and past it lie the quantum behaviour of macroscopic objects, dark matter, and whatever we have not yet found.</p>
+    <div class="ids"><a href="https://orcid.org/0000-0001-5839-1700" rel="noopener">ORCID 0000-0001-5839-1700</a><a href="https://researchmap.jp/takuya_kawasaki" rel="noopener">researchmap</a><a href="https://scholar.google.com/citations?user=-ry0xrMAAAAJ" rel="noopener">Google Scholar</a><a href="https://inspirehep.net/authors/1926092" rel="noopener">INSPIRE-HEP</a><a href="https://arxiv.org/a/0000-0001-5839-1700" rel="noopener">arXiv</a><a href="https://github.com/tkawasaki-phys" rel="noopener">GitHub</a></div>
+  </div>
+</div>
+<section id="research" class="block"><div class="head"><h2 data-en="Research" data-ja="研究">Research</h2></div><div><article class="theme"><h3 data-en="Gravitational-wave telescopes and quantum noise" data-ja="重力波望遠鏡と量子雑音">Gravitational-wave telescopes and quantum noise</h3><p data-en="The ultimate sensitivity of a gravitational-wave telescope is set, in the end, by quantum noise. How far can that limit be pushed down? I work on this through the optical spring and through the methods of quantum measurement." data-ja="重力波望遠鏡の究極的な感度は、最後には量子雑音で決まります。その限界をどう下げるのか。光ばねという現象や、量子測定の手法を使って研究しています。">The ultimate sensitivity of a gravitational-wave telescope is set, in the end, by quantum noise. How far can that limit be pushed down? I work on this through the optical spring and through the methods of quantum measurement.</p><div class="keys"><span data-en="gravitational-wave telescope" data-ja="重力波望遠鏡">gravitational-wave telescope</span><span data-en="standard quantum limit" data-ja="標準量子限界">standard quantum limit</span><span data-en="optical spring" data-ja="光ばね">optical spring</span><span data-en="detuned cavity" data-ja="離調共振器">detuned cavity</span><span data-en="back-action evasion" data-ja="反作用回避">back-action evasion</span></div></article><article class="theme"><h3 data-en="Macroscopic quantum mechanics" data-ja="巨視的量子力学">Macroscopic quantum mechanics</h3><p data-en="Quantum noise is not only noise; it is also a signal. I turn the precision-measurement techniques built for gravitational-wave telescopes onto milligram-scale mirrors, and ask how far an object of that size still obeys quantum mechanics." data-ja="量子雑音は雑音であると同時に、信号でもあります。重力波望遠鏡で培った精密測定の技術をミリグラムスケールの鏡に向け、この大きさの物体がどこまで量子力学に従うのかを調べています。">Quantum noise is not only noise; it is also a signal. I turn the precision-measurement techniques built for gravitational-wave telescopes onto milligram-scale mirrors, and ask how far an object of that size still obeys quantum mechanics.</p><div class="keys"><span data-en="milligram oscillator" data-ja="ミリグラム振動子">milligram oscillator</span><span data-en="quantum radiation pressure noise" data-ja="量子輻射圧ゆらぎ">quantum radiation pressure noise</span><span data-en="optical trapping" data-ja="光トラップ">optical trapping</span></div></article><article class="theme"><h3 data-en="Atom interferometry" data-ja="原子干渉計">Atom interferometry</h3><p data-en="Using matter waves instead of light gives a larger signal. To push the sensitivity of an atom interferometer I work on a phase-modulation readout scheme and analyse the limit it sets, and on applying it to gyroscopes that measure rotation." data-ja="光のかわりに物質波を使うと、より大きな信号が得られます。原子干渉計の感度を上げるため、位相変調による読み出し方式を考え、その感度限界を解析しています。回転を測るジャイロスコープへの応用にも取り組んでいます。">Using matter waves instead of light gives a larger signal. To push the sensitivity of an atom interferometer I work on a phase-modulation readout scheme and analyse the limit it sets, and on applying it to gyroscopes that measure rotation.</p><div class="keys"><span data-en="atom interferometer" data-ja="原子干渉計">atom interferometer</span><span data-en="phase-modulation readout" data-ja="位相変調読み出し">phase-modulation readout</span><span data-en="inertial sensing" data-ja="慣性センサ">inertial sensing</span></div></article><article class="theme"><h3 data-en="Dark matter searches with precision measurement" data-ja="精密測定によるダークマター探索">Dark matter searches with precision measurement</h3><p data-en="An interferometer sensitive enough for gravitational waves will register other things too. With optical cavities and levitated nanoparticles I look for traces of dark matter that no experiment has caught so far." data-ja="重力波をとらえられるほど高感度な干渉計は、ほかのものにも反応します。光共振器や浮揚ナノ粒子を使って、まだどの実験もとらえていないダークマターの痕跡を探しています。">An interferometer sensitive enough for gravitational waves will register other things too. With optical cavities and levitated nanoparticles I look for traces of dark matter that no experiment has caught so far.</p><div class="keys"><span data-en="axion" data-ja="アクシオン">axion</span><span data-en="vector dark matter" data-ja="ベクトルダークマター">vector dark matter</span><span data-en="levitated nanoparticle" data-ja="浮揚ナノ粒子">levitated nanoparticle</span></div></article></div></section>
+<section id="publications" class="block"><div class="head"><h2 data-en="Selected publications" data-ja="主要業績">Selected publications</h2><span class="side"><a href="publications.html" data-en="All publications (39) →" data-ja="業績一覧（39 件）→">All publications (39) →</a></span></div><ol class="ledger"><li class="pub">
+  <div class="pub-year">2025</div>
+  <div>
+    <h3 class="pub-title">Analyzing the sensitivity of an atom interferometer with a phase-modulation readout scheme</h3>
+    <p class="pub-meta"><span class="me">T. Kawasaki</span>, S. Otabe, T. Sato, M. Miranda, N. Takei, M. Kozuma &mdash; <em>Phys. Rev. A</em> 111, 013302</p>
+    <div class="pub-tail"><span class="pos">1st of 6</span><a href="https://doi.org/10.1103/physreva.111.013302" rel="noopener">doi</a><a href="https://arxiv.org/abs/2406.03911" rel="noopener">arXiv:2406.03911</a><span class="cited">cited <b>3</b></span></div>
+  </div>
+</li><li class="pub">
+  <div class="pub-year">2022</div>
+  <div>
+    <h3 class="pub-title">Angular trapping of a linear-cavity mirror with an optical torsional spring</h3>
+    <p class="pub-meta"><span class="me">T. Kawasaki</span>, K. Komori, H. Fujimoto, Y. Michimura, M. Ando &mdash; <em>Phys. Rev. A</em> 106, 013514</p>
+    <div class="pub-tail"><span class="pos">1st of 5</span><a href="https://doi.org/10.1103/physreva.106.013514" rel="noopener">doi</a><a href="https://arxiv.org/abs/2110.13507" rel="noopener">arXiv:2110.13507</a><span class="cited">cited <b>7</b></span></div>
+  </div>
+</li><li class="pub">
+  <div class="pub-year">2021</div>
+  <div>
+    <h3 class="pub-title">Improving force sensitivity by amplitude measurements of light reflected from a detuned optomechanical cavity</h3>
+    <p class="pub-meta">K. Komori, <span class="me">T. Kawasaki</span>, S. Otabe, Y. Enomoto, Y. Michimura, M. Ando &mdash; <em>Phys. Rev. A</em> 104, L031501</p>
+    <div class="pub-tail"><span class="pos">2nd of 6</span><a href="https://doi.org/10.1103/physreva.104.l031501" rel="noopener">doi</a><a href="https://arxiv.org/abs/2105.10510" rel="noopener">arXiv:2105.10510</a><span class="cited">cited <b>4</b></span></div>
+  </div>
+</li><li class="pub">
+  <div class="pub-year">2020</div>
+  <div>
+    <h3 class="pub-title">Optical trapping of the transversal motion for an optically levitated mirror</h3>
+    <p class="pub-meta"><span class="me">T. Kawasaki</span>, N. Kita, K. Nagano, S. Wada, Y. Kuwahara, M. Ando, Y. Michimura &mdash; <em>Phys. Rev. A</em> 102, 053520</p>
+    <div class="pub-tail"><span class="pos">1st of 7</span><a href="https://doi.org/10.1103/physreva.102.053520" rel="noopener">doi</a><a href="https://arxiv.org/abs/2007.01630" rel="noopener">arXiv:2007.01630</a><span class="cited">cited <b>5</b></span></div>
+  </div>
+</li><li class="pub">
+  <div class="pub-year">2019</div>
+  <div>
+    <h3 class="pub-title">KAGRA: 2.5 generation interferometric gravitational wave detector</h3>
+    <p class="pub-meta">KAGRA Collaboration &mdash; <em>Nature Astronomy</em> 3, 35–40</p>
+    <div class="pub-tail"><span class="collab">collaboration &middot; 198 authors</span><a href="https://doi.org/10.1038/s41550-018-0658-y" rel="noopener">doi</a><a href="https://arxiv.org/abs/1811.08079" rel="noopener">arXiv:1811.08079</a><span class="cited">cited <b>534</b></span></div>
+  </div>
+</li></ol></section>
+<section id="career" class="block"><div class="head"><h2 data-en="Career" data-ja="経歴">Career</h2></div><div class="cv-cols"><div class="cv-group"><h3 class="subhead" data-en="Appointments" data-ja="職歴">Appointments</h3><ol class="cvlist"><li class="cv"><div class="cv-when">2024.09&ndash;<span data-en="present" data-ja="現在">present</span></div><div><p class="cv-what" data-en="The University of Tokyo Graduate School of Science Department of Physics" data-ja="東京大学 大学院理学系研究科 物理学専攻">The University of Tokyo Graduate School of Science Department of Physics</p><p class="cv-sub" data-en="Assistant professor" data-ja="助教">Assistant professor</p></div></li><li class="cv"><div class="cv-when">2024.04&ndash;2024.08</div><div><p class="cv-what" data-en="The University of Tokyo Graduate School of Science Department of Physics" data-ja="東京大学 大学院理学系研究科 物理学専攻">The University of Tokyo Graduate School of Science Department of Physics</p><p class="cv-sub" data-en="Specially appointed assistant professor" data-ja="特任助教">Specially appointed assistant professor</p></div></li><li class="cv"><div class="cv-when">2022.04&ndash;2024.03</div><div><p class="cv-what" data-en="Tokyo Institute of Technology Institute of Innovative Research" data-ja="東京工業大学 科学技術創成研究院">Tokyo Institute of Technology Institute of Innovative Research</p><p class="cv-sub" data-en="Specially appointed assistant professor" data-ja="特任助教">Specially appointed assistant professor</p></div></li><li class="cv"><div class="cv-when">2019.04&ndash;2022.03</div><div><p class="cv-what" data-en="Japan Society for the Promotion of Science" data-ja="独立行政法人日本学術振興会">Japan Society for the Promotion of Science</p><p class="cv-sub" data-en="JSPS Research Fellow (DC1)" data-ja="特別研究員（DC1）">JSPS Research Fellow (DC1)</p></div></li></ol></div><div class="cv-group"><h3 class="subhead" data-en="Education" data-ja="学歴">Education</h3><ol class="cvlist"><li class="cv"><div class="cv-when">2017.04&ndash;2022.03</div><div><p class="cv-what" data-en="The University of Tokyo" data-ja="東京大学">The University of Tokyo</p><p class="cv-sub" data-en="Graduate School of Science Department of Physics" data-ja="大学院理学系研究科 物理学専攻">Graduate School of Science Department of Physics</p><p class="cv-badge"><span class="pos only-en">Doctor of Philosophy (Science)</span><span class="pos only-ja">博士（理学）</span></p></div></li><li class="cv"><div class="cv-when">2015.04&ndash;2017.03</div><div><p class="cv-what" data-en="The University of Tokyo" data-ja="東京大学">The University of Tokyo</p><p class="cv-sub" data-en="Faculty of Science Department of Physics" data-ja="理学部 物理学科">Faculty of Science Department of Physics</p></div></li><li class="cv"><div class="cv-when">2013.04&ndash;2015.03</div><div><p class="cv-what" data-en="The University of Tokyo" data-ja="東京大学">The University of Tokyo</p><p class="cv-sub" data-en="College of Arts and Sciences Natural Sciences I" data-ja="教養学部 理科一類">College of Arts and Sciences Natural Sciences I</p></div></li></ol></div><div class="cv-group"><h3 class="subhead" data-en="Teaching" data-ja="教育">Teaching</h3><ol class="cvlist"><li class="cv"><div class="cv-when">2024&ndash;<span data-en="present" data-ja="現在">present</span></div><div><p class="cv-what" data-en="Physics Laboratory II · The University of Tokyo" data-ja="物理学実験II（東京大学）">Physics Laboratory II · The University of Tokyo</p><p class="cv-sub" data-en="Compulsory laboratory course for third-year undergraduates. In charge of the laser theme." data-ja="学部3年生必修の実験演習。「レーザー」テーマの担当教員。">Compulsory laboratory course for third-year undergraduates. In charge of the laser theme.</p></div></li></ol></div></div></section>
+<section id="grants" class="block"><div class="head"><h2 data-en="Research grants" data-ja="研究費">Research grants</h2></div><ol class="ledger"><li class="pub">
+  <div class="pub-year">2024&ndash;2026</div>
+  <div>
+    <h3 class="pub-title" data-en="Vector dark matter search using a levitated nanoparticle" data-ja="浮揚ナノ粒子によるベクトルダークマター探査">Vector dark matter search using a levitated nanoparticle</h3>
+    <p class="pub-meta" data-en="Grant-in-Aid for Research Activity Start-up" data-ja="研究活動スタート支援">Grant-in-Aid for Research Activity Start-up</p>
+    <div class="pub-tail"><span class="pos" data-en="Principal Investigator" data-ja="研究代表者">Principal Investigator</span><a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-24K22874/" rel="noopener">24K22874</a><span class="cited" data-en="JPY 2,730,000" data-ja="273万円">JPY 2,730,000</span></div>
+  </div>
+</li><li class="pub">
+  <div class="pub-year">2019&ndash;2022</div>
+  <div>
+    <h3 class="pub-title" data-en="Optical Levitation to Realize a Macroscopic Quantum System" data-ja="鏡の光学浮上による巨視的量子系の実現">Optical Levitation to Realize a Macroscopic Quantum System</h3>
+    <p class="pub-meta" data-en="Grant-in-Aid for JSPS Fellows" data-ja="特別研究員奨励費">Grant-in-Aid for JSPS Fellows</p>
+    <div class="pub-tail"><span class="pos" data-en="Principal Investigator" data-ja="研究代表者">Principal Investigator</span><a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-19J21861/" rel="noopener">19J21861</a><span class="cited" data-en="JPY 3,400,000" data-ja="340万円">JPY 3,400,000</span></div>
+  </div>
+</li></ol></section>
+
+<section id="contact" class="block"><div class="head"><h2 data-en="Contact" data-ja="連絡先">Contact</h2></div><dl class="contact"><div><dt data-en="Email" data-ja="メール">Email</dt><dd><a href="mailto:takuya.kawasaki@phys.s.u-tokyo.ac.jp">takuya.kawasaki@phys.s.u-tokyo.ac.jp</a></dd></div><div><dt data-en="Office" data-ja="所在地">Office</dt><dd data-en="7-3-1 Hongo, Bunkyo-ku, Tokyo 113-0033, Japan" data-ja="〒113-0033 東京都文京区本郷 7-3-1">7-3-1 Hongo, Bunkyo-ku, Tokyo 113-0033, Japan</dd></div></dl></section>
+<footer>
+  <span data-en="© 2026 Takuya Kawasaki" data-ja="© 2026 川﨑 拓也">© 2026 Takuya Kawasaki</span>
+  <span class="sync"><span data-en="Publications are synced from ORCID, Crossref and OpenAlex" data-ja="業績は ORCID・Crossref・OpenAlex から自動同期しています">Publications are synced from ORCID, Crossref and OpenAlex</span> &middot; 2026-09-19</span>
+</footer>
+</main>
+<script src="assets/site.js?v=5bf20b94"></script>
+</body>
+</html>

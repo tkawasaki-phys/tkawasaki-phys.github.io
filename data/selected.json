@@ -1,0 +1,23 @@
+{
+  "_comment": "トップページの「主要業績」に出す論文を DOI で並べます。この順番どおりに表示されます。全業績ページには ORCID の全件が自動で載ります。",
+  "featured": [
+    "10.1103/physreva.111.013302",
+    "10.1103/physreva.106.013514",
+    "10.1103/physreva.104.l031501",
+    "10.1103/physreva.102.053520",
+    "10.1038/s41550-018-0658-y"
+  ],
+  "_labels_comment": "大規模共同研究の論文に、著者リストの代わりに出す名義。",
+  "labels": {
+    "10.1038/s41550-018-0658-y": "KAGRA Collaboration"
+  },
+  "_venue_comment": "Crossref の誌名略称を上書きしたいとき。鍵は DOI でも、Crossref が返す誌名そのものでも可。",
+  "venue_overrides": {
+    "Nat Astron": "Nature Astronomy",
+    "Living Rev Relativ": "Living Reviews in Relativity"
+  },
+  "_exclude_comment": "業績一覧に出したくない DOI。ORCID からは消さず、サイトでの表示だけ抑えます。正誤表（Correction / Erratum）は元論文と二重に並んで見栄えが悪いので外しています。ここから DOI を消せばまた出ます。",
+  "exclude": [
+    "10.1093/ptep/ptad063"
+  ]
+}

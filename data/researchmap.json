@@ -1,0 +1,1615 @@
+{
+ "fetched_at": "2026-09-19",
+ "source": "https://api.researchmap.jp/takuya_kawasaki",
+ "sections": {
+  "research_experience": [
+   {
+    "@id": "https://api.researchmap.jp/takuya_kawasaki/research_experience/47600715",
+    "@type": "research_experience",
+    "@reverse": "https://api.researchmap.jp/takuya_kawasaki/research_experience",
+    "rm:id": "47600715",
+    "rm:user_id": "R000045442",
+    "display": "disclosed",
+    "major_achievement": false,
+    "rm:creator_id": "R000045442",
+    "rm:creator_type": "myself",
+    "rm:created": "2024-09-02T01:13:16Z",
+    "rm:modifier_id": "R000045442",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2024-09-02T01:13:53Z",
+    "from_date": "2024-09",
+    "to_date": "9999",
+    "rm:institution_code": "0172056002",
+    "affiliation": {
+     "ja": "東京大学",
+     "en": "The University of Tokyo"
+    },
+    "section": {
+     "ja": "大学院理学系研究科 物理学専攻",
+     "en": "Graduate School of Science Department of Physics"
+    },
+    "job": {
+     "ja": "助教",
+     "en": "Assistant professor"
+    }
+   },
+   {
+    "@id": "https://api.researchmap.jp/takuya_kawasaki/research_experience/46610262",
+    "@type": "research_experience",
+    "@reverse": "https://api.researchmap.jp/takuya_kawasaki/research_experience",
+    "rm:id": "46610262",
+    "rm:user_id": "R000045442",
+    "display": "disclosed",
+    "major_achievement": false,
+    "rm:creator_id": "R000045442",
+    "rm:creator_type": "myself",
+    "rm:created": "2024-05-27T03:38:40Z",
+    "rm:modifier_id": "R000045442",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2024-09-02T01:13:37Z",
+    "from_date": "2024-04",
+    "to_date": "2024-08",
+    "rm:institution_code": "0172056002",
+    "affiliation": {
+     "ja": "東京大学",
+     "en": "The University of Tokyo"
+    },
+    "section": {
+     "ja": "大学院理学系研究科 物理学専攻",
+     "en": "Graduate School of Science Department of Physics"
+    },
+    "job": {
+     "ja": "特任助教",
+     "en": "Specially appointed assistant professor"
+    },
+    "address_country": "JPN"
+   },
+   {
+    "@id": "https://api.researchmap.jp/takuya_kawasaki/research_experience/40516401",
+    "@type": "research_experience",
+    "@reverse": "https://api.researchmap.jp/takuya_kawasaki/research_experience",
+    "rm:id": "40516401",
+    "rm:user_id": "R000045442",
+    "display": "disclosed",
+    "major_achievement": false,
+    "rm:creator_id": "R000045442",
+    "rm:creator_type": "myself",
+    "rm:created": "2022-11-17T08:40:36Z",
+    "rm:modifier_id": "R000045442",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2024-05-27T03:39:13Z",
+    "from_date": "2022-04",
+    "to_date": "2024-03",
+    "rm:institution_code": "0192535000",
+    "affiliation": {
+     "ja": "東京工業大学",
+     "en": "Tokyo Institute of Technology"
+    },
+    "section": {
+     "ja": "科学技術創成研究院",
+     "en": "Institute of Innovative Research"
+    },
+    "job": {
+     "ja": "特任助教",
+     "en": "Specially appointed assistant professor"
+    },
+    "address_country": "JPN"
+   },
+   {
+    "@id": "https://api.researchmap.jp/takuya_kawasaki/research_experience/40516399",
+    "@type": "research_experience",
+    "@reverse": "https://api.researchmap.jp/takuya_kawasaki/research_experience",
+    "rm:id": "40516399",
+    "rm:user_id": "R000045442",
+    "display": "disclosed",
+    "major_achievement": false,
+    "rm:creator_id": "R000045442",
+    "rm:creator_type": "myself",
+    "rm:created": "2022-11-17T08:39:45Z",
+    "rm:modifier_id": "R000045442",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2022-11-17T08:39:45Z",
+    "from_date": "2019-04",
+    "to_date": "2022-03",
+    "rm:institution_code": "9486000000",
+    "affiliation": {
+     "ja": "独立行政法人日本学術振興会",
+     "en": "Japan Society for the Promotion of Science"
+    },
+    "job": {
+     "ja": "特別研究員（DC1）"
+    }
+   }
+  ],
+  "education": [
+   {
+    "@id": "https://api.researchmap.jp/takuya_kawasaki/education/40516538",
+    "@type": "education",
+    "@reverse": "https://api.researchmap.jp/takuya_kawasaki/education",
+    "rm:id": "40516538",
+    "rm:user_id": "R000045442",
+    "display": "disclosed",
+    "major_achievement": false,
+    "rm:creator_id": "R000045442",
+    "rm:creator_type": "myself",
+    "rm:created": "2022-11-17T08:55:05Z",
+    "rm:modifier_id": "R000045442",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2022-11-17T08:55:05Z",
+    "from_date": "2017-04",
+    "to_date": "2022-03",
+    "rm:institution_code": "0172056002",
+    "affiliation": {
+     "ja": "東京大学",
+     "en": "The University of Tokyo"
+    },
+    "department": {
+     "ja": "大学院理学系研究科",
+     "en": "Graduate School of Science"
+    },
+    "course": {
+     "ja": "物理学専攻",
+     "en": "Department of Physics"
+    },
+    "address_country": "JPN"
+   },
+   {
+    "@id": "https://api.researchmap.jp/takuya_kawasaki/education/40516544",
+    "@type": "education",
+    "@reverse": "https://api.researchmap.jp/takuya_kawasaki/education",
+    "rm:id": "40516544",
+    "rm:user_id": "R000045442",
+    "display": "disclosed",
+    "major_achievement": false,
+    "rm:creator_id": "R000045442",
+    "rm:creator_type": "myself",
+    "rm:created": "2022-11-17T08:55:44Z",
+    "rm:modifier_id": "R000045442",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2022-11-17T11:49:20Z",
+    "from_date": "2015-04",
+    "to_date": "2017-03",
+    "rm:institution_code": "0172506503",
+    "affiliation": {
+     "ja": "東京大学",
+     "en": "The University of Tokyo"
+    },
+    "department": {
+     "ja": "理学部",
+     "en": "Faculty of Science"
+    },
+    "course": {
+     "ja": "物理学科",
+     "en": "Department of Physics"
+    },
+    "address_country": "JPN"
+   },
+   {
+    "@id": "https://api.researchmap.jp/takuya_kawasaki/education/40517297",
+    "@type": "education",
+    "@reverse": "https://api.researchmap.jp/takuya_kawasaki/education",
+    "rm:id": "40517297",
+    "rm:user_id": "R000045442",
+    "display": "disclosed",
+    "major_achievement": false,
+    "rm:creator_id": "R000045442",
+    "rm:creator_type": "myself",
+    "rm:created": "2022-11-17T11:56:28Z",
+    "rm:modifier_id": "R000045442",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2022-11-17T11:56:28Z",
+    "from_date": "2013-04",
+    "to_date": "2015-03",
+    "rm:institution_code": "0172509000",
+    "affiliation": {
+     "ja": "東京大学",
+     "en": "The University of Tokyo"
+    },
+    "department": {
+     "ja": "教養学部",
+     "en": "College of Arts and Sciences"
+    },
+    "course": {
+     "ja": "理科一類"
+    },
+    "address_country": "JPN"
+   }
+  ],
+  "research_projects": [
+   {
+    "@id": "https://api.researchmap.jp/takuya_kawasaki/research_projects/47968315",
+    "@type": "research_projects",
+    "@reverse": "https://api.researchmap.jp/takuya_kawasaki/research_projects",
+    "rm:id": "47968315",
+    "rm:user_id": "R000045442",
+    "display": "disclosed",
+    "major_achievement": false,
+    "rm:creator_id": "R000045442",
+    "rm:creator_type": "myself",
+    "rm:created": "2024-09-27T05:14:06Z",
+    "rm:modifier_id": "R000045442",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2024-09-27T05:14:06Z",
+    "research_project_title": {
+     "ja": "浮揚ナノ粒子によるベクトルダークマター探査",
+     "en": "Vector dark matter search using a levitated nanoparticle"
+    },
+    "investigators": {
+     "ja": [
+      {
+       "name": "川崎 拓也"
+      }
+     ]
+    },
+    "offer_organization": {
+     "ja": "日本学術振興会",
+     "en": "Japan Society for the Promotion of Science"
+    },
+    "system_name": {
+     "ja": "科学研究費助成事業",
+     "en": "Grants-in-Aid for Scientific Research"
+    },
+    "category": {
+     "ja": "研究活動スタート支援",
+     "en": "Grant-in-Aid for Research Activity Start-up"
+    },
+    "institution_name": {
+     "ja": "東京大学",
+     "en": "The University of Tokyo"
+    },
+    "from_date": "2024-07-31",
+    "to_date": "2026-03-31",
+    "overall_grant_amount": {
+     "total_cost": "2730000",
+     "direct_cost": "2100000",
+     "indirect_cost": "630000"
+    },
+    "identifiers": {
+     "grant_number": [
+      "24K22874"
+     ],
+     "national_grant_number": [
+      "JP24K22874"
+     ]
+    },
+    "see_also": [
+     {
+      "label": "kaken",
+      "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-24K22874"
+     }
+    ]
+   },
+   {
+    "@id": "https://api.researchmap.jp/takuya_kawasaki/research_projects/40516517",
+    "@type": "research_projects",
+    "@reverse": "https://api.researchmap.jp/takuya_kawasaki/research_projects",
+    "rm:id": "40516517",
+    "rm:user_id": "R000045442",
+    "display": "disclosed",
+    "major_achievement": false,
+    "rm:creator_id": "R000045442",
+    "rm:creator_type": "myself",
+    "rm:created": "2022-11-17T08:51:18Z",
+    "rm:modifier_id": "R000045442",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2024-05-27T03:43:42Z",
+    "research_project_title": {
+     "ja": "鏡の光学浮上による巨視的量子系の実現",
+     "en": "Optical Levitation to Realize a Macroscopic Quantum System"
+    },
+    "investigators": {
+     "ja": [
+      {
+       "name": "川崎 拓也"
+      }
+     ],
+     "en": [
+      {
+       "name": "Takuya Kawasaki"
+      }
+     ]
+    },
+    "offer_organization": {
+     "ja": "日本学術振興会",
+     "en": "Japan Society for the Promotion of Science"
+    },
+    "system_name": {
+     "ja": "科学研究費助成事業 特別研究員奨励費",
+     "en": "Grants-in-Aid for Scientific Research Grant-in-Aid for JSPS Fellows"
+    },
+    "category": {
+     "ja": "特別研究員奨励費",
+     "en": "Grant-in-Aid for JSPS Fellows"
+    },
+    "institution_name": {
+     "ja": "東京大学",
+     "en": "The University of Tokyo"
+    },
+    "from_date": "2019-04",
+    "to_date": "2022-03",
+    "research_project_owner_role": "principal_investigator",
+    "overall_grant_amount": {
+     "total_cost": "3400000",
+     "direct_cost": "3400000",
+     "indirect_cost": "0"
+    },
+    "description": {
+     "ja": "本研究は、巨視的量子系を実現することにより、いまだ実験的検証が行われていないマクロなスケールでの量子力学検証、そして重力相互作用を組み込んだ量子力学の研究を行うことを目的としている。\nそのための方法として、巨視的な振動子の位置測定を精密に行うことのできる機械光学系に着目し、かつ振動子としての微小な鏡を光の輻射圧のみによって支持しトラップすることで、懸架による熱的な雑音を除外し、量子効果を観測できる感度を実現する。\n本年度は、まず本研究の光学浮上構成であるサンドウィッチ構成の安定性検証をおこなう実験の測定結果を精査し、サンドウィッチ構成が安定な系であることを明確化した。\nまた、光学浮上を実現し、振動子の変位測定感度が標準量子限界に達した系は、巨視的な量子系の研究を幅広く行うことができるプラットフォームとなる。そこで、光学浮上を実現した系の量子センサーとしての応用を考えると、標準量子限界を突破した感度を実現することも重要性である。この点を踏まえ、標準量子限界を超える感度を実現するためのスキームを実証する実験を微小な懸架鏡を用いて進めた。微小鏡により構成された高感度な線形光共振器により、測定のバックアクション雑音の回避をデモンストレーションし、バックアクションを回避した周波数帯においてディップ状に変位測定感度が向上する特徴的な振る舞いを観測した。同時に、ディップの生じる周波数が理論と矛盾ない振る舞いを示す測定結果を得た。これらの結果より、この量子雑音を低減する手法が、理論的な期待通り機能することを実証できたと言える。"
+    },
+    "identifiers": {
+     "grant_number": [
+      "19J21861"
+     ],
+     "national_grant_number": [
+      "JP19J21861"
+     ]
+    },
+    "see_also": [
+     {
+      "label": "kaken",
+      "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-19J21861"
+     }
+    ]
+   }
+  ],
+  "industrial_property_rights": [
+   {
+    "@id": "https://api.researchmap.jp/takuya_kawasaki/industrial_property_rights/54691356",
+    "@type": "industrial_property_rights",
+    "@reverse": "https://api.researchmap.jp/takuya_kawasaki/industrial_property_rights",
+    "rm:id": "54691356",
+    "rm:user_id": "R000045442",
+    "display": "disclosed",
+    "major_achievement": false,
+    "rm:creator_id": "R000045442",
+    "rm:creator_type": "myself",
+    "rm:created": "2026-08-20T06:42:55Z",
+    "rm:modifier_id": "R000045442",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2026-09-18T05:48:49Z",
+    "industrial_property_right_type": "patent_right",
+    "industrial_property_right_title": {
+     "ja": "位相差測定方法、原子波干渉計、角速度測定方法、原子波干渉計型ジャイロスコープ",
+     "en": "Phase difference measuring method, atomic wave interferometer, angular velocity measuring method, and atomic wave interferometer type gyroscope"
+    },
+    "inventors": {
+     "ja": [
+      {
+       "name": "川﨑拓也"
+      },
+      {
+       "name": "小田部荘達"
+      },
+      {
+       "name": "西村尚輝"
+      },
+      {
+       "name": "佐藤智哉"
+      },
+      {
+       "name": "マルティン サンディアゴ ミランダ"
+      },
+      {
+       "name": "武井宣幸"
+      },
+      {
+       "name": "上妻幹旺"
+      },
+      {
+       "name": "細谷俊之"
+      },
+      {
+       "name": "田中敦史"
+      }
+     ],
+     "en": [
+      {
+       "name": "Takuya Kawasaki"
+      },
+      {
+       "name": "Sotatsu Otabe"
+      },
+      {
+       "name": "Naoki Nishimura"
+      },
+      {
+       "name": "Tomoya Sato"
+      },
+      {
+       "name": "Martin Santiago Miranda"
+      },
+      {
+       "name": "Nobuyuki Takei"
+      },
+      {
+       "name": "Mikio Kozuma"
+      },
+      {
+       "name": "Toshiyuki Hosoya"
+      },
+      {
+       "name": "Atsushi Tanaka"
+      }
+     ]
+    },
+    "application_number": "特願2024-010746",
+    "application_date": "2024-01-29",
+    "applicants": [
+     {
+      "applicant": {
+       "ja": "国立大学法人東京科学大学",
+       "en": "Institute of Science Tokyo"
+      },
+      "rm:institution_code": "0550000000"
+     },
+     {
+      "applicant": {
+       "ja": "日本航空電子工業株式会社",
+       "en": "Japan Aviation Electronics Industry Ltd."
+      },
+      "rm:institution_code": "9999999999"
+     }
+    ],
+    "patent_announcement_number": "特開2025-116885",
+    "patent_announcement_date": "2025-08-12",
+    "applicant_country": [
+     "domestic",
+     "foreign"
+    ],
+    "description": {
+     "ja": "米国出願中：US 2025/0244128 A1 として2025年7月31日公開（米国出願 18/963,855、2024年11月29日出願、本件を優先権主張）。譲受人は日本航空電子工業株式会社および東京科学大学。",
+     "en": "US application pending: published as US 2025/0244128 A1 on 31 July 2025 (US application 18/963,855, filed 29 November 2024, claiming priority to this Japanese application). Assignees: Japan Aviation Electronics Industry Ltd. and Institute of Science Tokyo."
+    },
+    "see_also": [
+     {
+      "@id": "https://patents.google.com/patent/US20250244128A1/en",
+      "label": "url"
+     }
+    ]
+   },
+   {
+    "@id": "https://api.researchmap.jp/takuya_kawasaki/industrial_property_rights/54691396",
+    "@type": "industrial_property_rights",
+    "@reverse": "https://api.researchmap.jp/takuya_kawasaki/industrial_property_rights",
+    "rm:id": "54691396",
+    "rm:user_id": "R000045442",
+    "display": "disclosed",
+    "major_achievement": false,
+    "rm:creator_id": "R000045442",
+    "rm:creator_type": "myself",
+    "rm:created": "2026-08-20T06:45:00Z",
+    "rm:modifier_id": "R000045442",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2026-09-18T05:04:26Z",
+    "industrial_property_right_type": "patent_right",
+    "industrial_property_right_title": {
+     "ja": "慣性センサ",
+     "en": "Inertial sensor"
+    },
+    "inventors": {
+     "ja": [
+      {
+       "name": "佐藤智哉"
+      },
+      {
+       "name": "川﨑拓也"
+      },
+      {
+       "name": "西村尚輝"
+      },
+      {
+       "name": "上妻幹旺"
+      },
+      {
+       "name": "細谷俊之"
+      },
+      {
+       "name": "田中敦史"
+      }
+     ],
+     "en": [
+      {
+       "name": "Tomoya Sato"
+      },
+      {
+       "name": "Takuya Kawasaki"
+      },
+      {
+       "name": "Naoki Nishimura"
+      },
+      {
+       "name": "Mikio Kozuma"
+      },
+      {
+       "name": "Toshiyuki Hosoya"
+      },
+      {
+       "name": "Atsushi Tanaka"
+      }
+     ]
+    },
+    "application_number": "特願2023-126387",
+    "application_date": "2023-08-02",
+    "applicants": [
+     {
+      "applicant": {
+       "ja": "国立大学法人東京科学大学",
+       "en": "Institute of Science Tokyo"
+      },
+      "rm:institution_code": "0550000000"
+     },
+     {
+      "applicant": {
+       "ja": "日本航空電子工業株式会社",
+       "en": "Japan Aviation Electronics Industry Ltd."
+      },
+      "rm:institution_code": "9999999999"
+     }
+    ],
+    "patent_announcement_number": "特開2025-022116",
+    "patent_announcement_date": "2025-02-14",
+    "applicant_country": [
+     "domestic",
+     "foreign"
+    ],
+    "acquisition_country": [
+     "foreign"
+    ],
+    "description": {
+     "ja": "米国では US Patent 12,516,937 B2「Inertial sensor」として2026年1月6日に登録（米国出願 18/758,008、2024年6月28日出願、本件を優先権主張）。譲受人は日本航空電子工業株式会社および東京科学大学。",
+     "en": "Granted in the United States as US Patent 12,516,937 B2 \"Inertial sensor\" on 6 January 2026 (US application 18/758,008, filed 28 June 2024, claiming priority to this Japanese application). Assignees: Japan Aviation Electronics Industry Ltd. and Institute of Science Tokyo."
+    },
+    "see_also": [
+     {
+      "@id": "https://patents.google.com/patent/US12516937B2/en",
+      "label": "url"
+     }
+    ]
+   }
+  ],
+  "_profile": {
+   "degrees": [
+    {
+     "degree": {
+      "ja": "博士（理学）",
+      "en": "Doctor of Philosophy (Science)"
+     },
+     "degree_institution": {
+      "ja": "東京大学",
+      "en": "The University of Tokyo"
+     },
+     "degree_date": "2022-03",
+     "display_degree": "disclosed",
+     "rm:institution_code": "0172000000"
+    }
+   ]
+  },
+  "presentations": [
+   {
+    "@id": "https://api.researchmap.jp/takuya_kawasaki/presentations/54995041",
+    "@type": "presentations",
+    "@reverse": "https://api.researchmap.jp/takuya_kawasaki/presentations",
+    "rm:id": "54995041",
+    "rm:user_id": "R000045442",
+    "display": "disclosed",
+    "major_achievement": false,
+    "rm:creator_id": "R000045442",
+    "rm:creator_type": "myself",
+    "rm:created": "2026-09-19T02:55:19Z",
+    "rm:modifier_id": "R000045442",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2026-09-19T02:55:19Z",
+    "presentation_title": {
+     "ja": "位相変調読み出し方式による原子干渉計の感度解析",
+     "en": "Analyzing the sensitivity of an atom interferometer with a phase modulation readout scheme"
+    },
+    "presenters": {
+     "en": [
+      {
+       "name": "T. Kawasaki"
+      },
+      {
+       "name": "S. Otabe"
+      },
+      {
+       "name": "T. Sato"
+      },
+      {
+       "name": "M. Miranda"
+      },
+      {
+       "name": "N. Takei"
+      },
+      {
+       "name": "M. Kozuma"
+      }
+     ]
+    },
+    "event": {
+     "ja": "第28回 原子物理国際会議",
+     "en": "The 28th International Conference on Atomic Physics (ICAP 2024)"
+    },
+    "publication_date": "2024-07-14",
+    "from_event_date": "2024-07-14",
+    "to_event_date": "2024-07-19",
+    "invited": false,
+    "languages": [
+     "eng"
+    ],
+    "presentation_type": "poster_presentation",
+    "location": {
+     "ja": "インペリアル・カレッジ・ロンドン（イギリス）",
+     "en": "Imperial College London, London, United Kingdom"
+    },
+    "address_country": "GBR",
+    "is_international_presentation": true,
+    "rm:is_open_access": false
+   },
+   {
+    "@id": "https://api.researchmap.jp/takuya_kawasaki/presentations/54995040",
+    "@type": "presentations",
+    "@reverse": "https://api.researchmap.jp/takuya_kawasaki/presentations",
+    "rm:id": "54995040",
+    "rm:user_id": "R000045442",
+    "display": "disclosed",
+    "major_achievement": false,
+    "rm:creator_id": "R000045442",
+    "rm:creator_type": "myself",
+    "rm:created": "2026-09-19T02:55:19Z",
+    "rm:modifier_id": "R000045442",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2026-09-19T02:55:19Z",
+    "presentation_title": {
+     "ja": "量子雑音を探るミリグラムスケールオプトメカニカル振り子",
+     "en": "Milligram-scale optomechanical pendulum for probing quantum noise"
+    },
+    "presenters": {
+     "en": [
+      {
+       "name": "T. Kawasaki"
+      },
+      {
+       "name": "K. Komori"
+      },
+      {
+       "name": "S. Otabe"
+      },
+      {
+       "name": "Y. Enomoto"
+      },
+      {
+       "name": "H. Fujimoto"
+      },
+      {
+       "name": "Y. Michimura"
+      },
+      {
+       "name": "M. Ando"
+      }
+     ]
+    },
+    "event": {
+     "ja": "GWADW2024",
+     "en": "Gravitational-Wave Advanced Detector Workshop 2024 (GWADW2024)"
+    },
+    "publication_date": "2024-05-14",
+    "from_event_date": "2024-05-13",
+    "to_event_date": "2024-05-17",
+    "invited": false,
+    "languages": [
+     "eng"
+    ],
+    "presentation_type": "poster_presentation",
+    "location": {
+     "ja": "ハミルトン島（オーストラリア）",
+     "en": "Hamilton Island, Queensland, Australia"
+    },
+    "address_country": "AUS",
+    "is_international_presentation": true,
+    "rm:is_open_access": false
+   },
+   {
+    "@id": "https://api.researchmap.jp/takuya_kawasaki/presentations/54995049",
+    "@type": "presentations",
+    "@reverse": "https://api.researchmap.jp/takuya_kawasaki/presentations",
+    "rm:id": "54995049",
+    "rm:user_id": "R000045442",
+    "display": "disclosed",
+    "major_achievement": false,
+    "rm:creator_id": "R000045442",
+    "rm:creator_type": "myself",
+    "rm:created": "2026-09-19T02:55:19Z",
+    "rm:modifier_id": "R000045442",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2026-09-19T02:55:19Z",
+    "presentation_title": {
+     "ja": "量子輻射圧ゆらぎ観測に向けたねじれ振り子型線形光共振器",
+     "en": "Torsion-pendulum linear optical cavity for observing quantum radiation pressure fluctuation"
+    },
+    "presenters": {
+     "ja": [
+      {
+       "name": "川﨑拓也"
+      },
+      {
+       "name": "小森健太郎"
+      },
+      {
+       "name": "榎本雄太郎"
+      },
+      {
+       "name": "Ooi Ching Pin"
+      },
+      {
+       "name": "松本伸之"
+      },
+      {
+       "name": "道村唯太"
+      },
+      {
+       "name": "安東正樹"
+      }
+     ]
+    },
+    "event": {
+     "ja": "日本物理学会 2021年秋季大会",
+     "en": "JPS 2021 Autumn Meeting"
+    },
+    "publication_date": "2021-09",
+    "from_event_date": "2021-09",
+    "to_event_date": "2021-09",
+    "invited": false,
+    "languages": [
+     "jpn"
+    ],
+    "presentation_type": "oral_presentation",
+    "promoter": {
+     "ja": "日本物理学会",
+     "en": "The Physical Society of Japan"
+    },
+    "location": {
+     "ja": "オンライン",
+     "en": "Online"
+    },
+    "address_country": "JPN",
+    "is_international_presentation": false,
+    "rm:is_open_access": false
+   },
+   {
+    "@id": "https://api.researchmap.jp/takuya_kawasaki/presentations/54995039",
+    "@type": "presentations",
+    "@reverse": "https://api.researchmap.jp/takuya_kawasaki/presentations",
+    "rm:id": "54995039",
+    "rm:user_id": "R000045442",
+    "display": "disclosed",
+    "major_achievement": false,
+    "rm:creator_id": "R000045442",
+    "rm:creator_type": "myself",
+    "rm:created": "2026-09-19T02:55:19Z",
+    "rm:modifier_id": "R000045442",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2026-09-19T02:55:19Z",
+    "presentation_title": {
+     "ja": "線形光共振器における量子輻射圧ゆらぎ",
+     "en": "Quantum Radiation Pressure Fluctuation in a Linear Optical Cavity"
+    },
+    "presenters": {
+     "en": [
+      {
+       "name": "T. Kawasaki"
+      }
+     ]
+    },
+    "event": {
+     "ja": "第3回 量子計測・センシング国際フォーラム",
+     "en": "The 3rd International Forum on Quantum Metrology and Sensing (3rd IFQMS)"
+    },
+    "publication_date": "2020-12-17",
+    "from_event_date": "2020-12-16",
+    "to_event_date": "2020-12-18",
+    "invited": false,
+    "languages": [
+     "eng"
+    ],
+    "presentation_type": "oral_presentation",
+    "promoter": {
+     "ja": "文部科学省 Q-LEAP 量子計測・センシング",
+     "en": "MEXT Q-LEAP Quantum Metrology and Sensing"
+    },
+    "location": {
+     "ja": "オンライン",
+     "en": "Online"
+    },
+    "address_country": "JPN",
+    "is_international_presentation": true,
+    "rm:is_open_access": false
+   },
+   {
+    "@id": "https://api.researchmap.jp/takuya_kawasaki/presentations/54995048",
+    "@type": "presentations",
+    "@reverse": "https://api.researchmap.jp/takuya_kawasaki/presentations",
+    "rm:id": "54995048",
+    "rm:user_id": "R000045442",
+    "display": "disclosed",
+    "major_achievement": false,
+    "rm:creator_id": "R000045442",
+    "rm:creator_type": "myself",
+    "rm:created": "2026-09-19T02:55:19Z",
+    "rm:modifier_id": "R000045442",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2026-09-19T02:55:19Z",
+    "presentation_title": {
+     "ja": "光共振器における古典強度雑音を用いた反作用雑音低減の実証 II",
+     "en": "Demonstration of back-action evasion with classical noise II"
+    },
+    "presenters": {
+     "ja": [
+      {
+       "name": "川﨑拓也"
+      },
+      {
+       "name": "小森健太郎"
+      },
+      {
+       "name": "榎本雄太郎"
+      },
+      {
+       "name": "Ooi Ching Pin"
+      },
+      {
+       "name": "松本伸之"
+      },
+      {
+       "name": "道村唯太"
+      },
+      {
+       "name": "安東正樹"
+      }
+     ]
+    },
+    "event": {
+     "ja": "日本物理学会 2020年秋季大会",
+     "en": "JPS 2020 Autumn Meeting"
+    },
+    "publication_date": "2020-09",
+    "from_event_date": "2020-09",
+    "to_event_date": "2020-09",
+    "invited": false,
+    "languages": [
+     "jpn"
+    ],
+    "presentation_type": "oral_presentation",
+    "promoter": {
+     "ja": "日本物理学会",
+     "en": "The Physical Society of Japan"
+    },
+    "location": {
+     "ja": "オンライン",
+     "en": "Online"
+    },
+    "address_country": "JPN",
+    "is_international_presentation": false,
+    "rm:is_open_access": false
+   },
+   {
+    "@id": "https://api.researchmap.jp/takuya_kawasaki/presentations/54995047",
+    "@type": "presentations",
+    "@reverse": "https://api.researchmap.jp/takuya_kawasaki/presentations",
+    "rm:id": "54995047",
+    "rm:user_id": "R000045442",
+    "display": "disclosed",
+    "major_achievement": false,
+    "rm:creator_id": "R000045442",
+    "rm:creator_type": "myself",
+    "rm:created": "2026-09-19T02:55:19Z",
+    "rm:modifier_id": "R000045442",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2026-09-19T02:55:19Z",
+    "presentation_title": {
+     "ja": "光共振器における古典強度雑音を用いた反作用雑音低減の実証",
+     "en": "Demonstration of back-action evasion with classical noise"
+    },
+    "presenters": {
+     "ja": [
+      {
+       "name": "川﨑拓也"
+      },
+      {
+       "name": "小森健太郎"
+      },
+      {
+       "name": "榎本雄太郎"
+      },
+      {
+       "name": "Ooi Ching Pin"
+      },
+      {
+       "name": "宮崎祐樹"
+      },
+      {
+       "name": "松本伸之"
+      },
+      {
+       "name": "道村唯太"
+      },
+      {
+       "name": "安東正樹"
+      }
+     ]
+    },
+    "event": {
+     "ja": "日本物理学会 第75回年次大会",
+     "en": "JPS 75th Annual Meeting"
+    },
+    "publication_date": "2020-03",
+    "from_event_date": "2020-03",
+    "to_event_date": "2020-03",
+    "invited": false,
+    "languages": [
+     "jpn"
+    ],
+    "presentation_type": "oral_presentation",
+    "promoter": {
+     "ja": "日本物理学会",
+     "en": "The Physical Society of Japan"
+    },
+    "location": {
+     "ja": "名古屋大学",
+     "en": "Nagoya University, Aichi, Japan"
+    },
+    "address_country": "JPN",
+    "is_international_presentation": false,
+    "rm:is_open_access": false
+   },
+   {
+    "@id": "https://api.researchmap.jp/takuya_kawasaki/presentations/54995038",
+    "@type": "presentations",
+    "@reverse": "https://api.researchmap.jp/takuya_kawasaki/presentations",
+    "rm:id": "54995038",
+    "rm:user_id": "R000045442",
+    "display": "disclosed",
+    "major_achievement": false,
+    "rm:creator_id": "R000045442",
+    "rm:creator_type": "myself",
+    "rm:created": "2026-09-19T02:55:19Z",
+    "rm:modifier_id": "R000045442",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2026-09-19T02:55:19Z",
+    "presentation_title": {
+     "ja": "量子輻射圧ゆらぎ観測に向けたミリグラムスケール鏡による線形光共振器",
+     "en": "Linear cavity with a mg-scale mirror for observation of quantum radiation pressure fluctuation"
+    },
+    "presenters": {
+     "en": [
+      {
+       "name": "T. Kawasaki"
+      }
+     ]
+    },
+    "event": {
+     "en": "The 2nd QFilter Workshop"
+    },
+    "publication_date": "2020-02-25",
+    "from_event_date": "2020-02-25",
+    "to_event_date": "2020-02-26",
+    "invited": false,
+    "languages": [
+     "eng"
+    ],
+    "presentation_type": "oral_presentation",
+    "location": {
+     "ja": "京都大学",
+     "en": "Kyoto University, Kyoto, Japan"
+    },
+    "address_country": "JPN",
+    "is_international_presentation": true,
+    "rm:is_open_access": false
+   },
+   {
+    "@id": "https://api.researchmap.jp/takuya_kawasaki/presentations/54995046",
+    "@type": "presentations",
+    "@reverse": "https://api.researchmap.jp/takuya_kawasaki/presentations",
+    "rm:id": "54995046",
+    "rm:user_id": "R000045442",
+    "display": "disclosed",
+    "major_achievement": false,
+    "rm:creator_id": "R000045442",
+    "rm:creator_type": "myself",
+    "rm:created": "2026-09-19T02:55:19Z",
+    "rm:modifier_id": "R000045442",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2026-09-19T03:50:16Z",
+    "presentation_title": {
+     "ja": "線形光共振器による量子輻射圧ゆらぎの観測実験",
+     "en": "Observation of quantum radiation pressure fluctuation in a linear optical cavity"
+    },
+    "presenters": {
+     "ja": [
+      {
+       "name": "川﨑拓也"
+      },
+      {
+       "name": "小森健太郎"
+      },
+      {
+       "name": "榎本雄太郎"
+      },
+      {
+       "name": "Ooi Ching Pin"
+      },
+      {
+       "name": "宮崎祐樹"
+      },
+      {
+       "name": "松本伸之"
+      },
+      {
+       "name": "道村唯太"
+      },
+      {
+       "name": "安東正樹"
+      }
+     ]
+    },
+    "event": {
+     "ja": "日本物理学会 2019年秋季大会",
+     "en": "JPS 2019 Autumn Meeting"
+    },
+    "publication_date": "2019-09",
+    "from_event_date": "2019-09",
+    "to_event_date": "2019-09",
+    "invited": false,
+    "languages": [
+     "jpn"
+    ],
+    "presentation_type": "oral_presentation",
+    "promoter": {
+     "ja": "日本物理学会",
+     "en": "The Physical Society of Japan"
+    },
+    "location": {
+     "ja": "山形大学",
+     "en": "Yamagata University, Yamagata, Japan"
+    },
+    "address_country": "JPN",
+    "is_international_presentation": false,
+    "rm:is_open_access": false
+   },
+   {
+    "@id": "https://api.researchmap.jp/takuya_kawasaki/presentations/54995037",
+    "@type": "presentations",
+    "@reverse": "https://api.researchmap.jp/takuya_kawasaki/presentations",
+    "rm:id": "54995037",
+    "rm:user_id": "R000045442",
+    "display": "disclosed",
+    "major_achievement": false,
+    "rm:creator_id": "R000045442",
+    "rm:creator_type": "myself",
+    "rm:created": "2026-09-19T02:55:19Z",
+    "rm:modifier_id": "R000045442",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2026-09-19T02:55:19Z",
+    "presentation_title": {
+     "ja": "鏡の光学浮上",
+     "en": "Optical Levitation of a Mirror"
+    },
+    "presenters": {
+     "en": [
+      {
+       "name": "T. Kawasaki"
+      },
+      {
+       "name": "N. Kita"
+      },
+      {
+       "name": "K. Nagano"
+      },
+      {
+       "name": "Y. Michimura"
+      },
+      {
+       "name": "T. Ushiba"
+      },
+      {
+       "name": "N. Matsumoto"
+      },
+      {
+       "name": "M. Ando"
+      }
+     ]
+    },
+    "event": {
+     "ja": "GWADW2019",
+     "en": "Gravitational-Wave Advanced Detector Workshop 2019 (GWADW2019)"
+    },
+    "publication_date": "2019-05-21",
+    "from_event_date": "2019-05-19",
+    "to_event_date": "2019-05-25",
+    "invited": false,
+    "languages": [
+     "eng"
+    ],
+    "presentation_type": "poster_presentation",
+    "location": {
+     "ja": "エルバ島（イタリア）",
+     "en": "Hotel Hermitage, Biodola, Isola d'Elba, Italy"
+    },
+    "address_country": "ITA",
+    "is_international_presentation": true,
+    "rm:is_open_access": false
+   },
+   {
+    "@id": "https://api.researchmap.jp/takuya_kawasaki/presentations/54995036",
+    "@type": "presentations",
+    "@reverse": "https://api.researchmap.jp/takuya_kawasaki/presentations",
+    "rm:id": "54995036",
+    "rm:user_id": "R000045442",
+    "display": "disclosed",
+    "major_achievement": false,
+    "rm:creator_id": "R000045442",
+    "rm:creator_type": "myself",
+    "rm:created": "2026-09-19T02:55:19Z",
+    "rm:modifier_id": "R000045442",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2026-09-19T02:55:19Z",
+    "presentation_title": {
+     "ja": "鏡の光学浮上による巨視的量子系の実現",
+     "en": "Optical Levitation to Realize a Macroscopic Quantum System"
+    },
+    "presenters": {
+     "en": [
+      {
+       "name": "T. Kawasaki"
+      }
+     ]
+    },
+    "event": {
+     "en": "The 1st QFilter Workshop"
+    },
+    "publication_date": "2019-03-19",
+    "from_event_date": "2019-03-19",
+    "to_event_date": "2019-03-20",
+    "invited": false,
+    "languages": [
+     "eng"
+    ],
+    "presentation_type": "oral_presentation",
+    "location": {
+     "ja": "Laboratoire Kastler Brossel（パリ）",
+     "en": "Laboratoire Kastler Brossel, Paris, France"
+    },
+    "address_country": "FRA",
+    "is_international_presentation": true,
+    "rm:is_open_access": false
+   },
+   {
+    "@id": "https://api.researchmap.jp/takuya_kawasaki/presentations/54995045",
+    "@type": "presentations",
+    "@reverse": "https://api.researchmap.jp/takuya_kawasaki/presentations",
+    "rm:id": "54995045",
+    "rm:user_id": "R000045442",
+    "display": "disclosed",
+    "major_achievement": false,
+    "rm:creator_id": "R000045442",
+    "rm:creator_type": "myself",
+    "rm:created": "2026-09-19T02:55:19Z",
+    "rm:modifier_id": "R000045442",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2026-09-19T03:50:16Z",
+    "presentation_title": {
+     "ja": "光輻射圧による鏡の光学浮上技術の開発(9)",
+     "en": "Study on optical levitation of a mg-scale mirror (9)"
+    },
+    "presenters": {
+     "ja": [
+      {
+       "name": "川﨑拓也"
+      },
+      {
+       "name": "喜多直紀"
+      },
+      {
+       "name": "長野晃士"
+      },
+      {
+       "name": "牛場崇文"
+      },
+      {
+       "name": "道村唯太"
+      },
+      {
+       "name": "松本伸之"
+      },
+      {
+       "name": "安東正樹"
+      }
+     ]
+    },
+    "event": {
+     "ja": "日本物理学会 第74回年次大会",
+     "en": "JPS 74th Annual Meeting"
+    },
+    "publication_date": "2019-03",
+    "from_event_date": "2019-03",
+    "to_event_date": "2019-03",
+    "invited": false,
+    "languages": [
+     "jpn"
+    ],
+    "presentation_type": "oral_presentation",
+    "promoter": {
+     "ja": "日本物理学会",
+     "en": "The Physical Society of Japan"
+    },
+    "location": {
+     "ja": "九州大学",
+     "en": "Kyushu University, Fukuoka, Japan"
+    },
+    "address_country": "JPN",
+    "is_international_presentation": false,
+    "rm:is_open_access": false
+   },
+   {
+    "@id": "https://api.researchmap.jp/takuya_kawasaki/presentations/54995044",
+    "@type": "presentations",
+    "@reverse": "https://api.researchmap.jp/takuya_kawasaki/presentations",
+    "rm:id": "54995044",
+    "rm:user_id": "R000045442",
+    "display": "disclosed",
+    "major_achievement": false,
+    "rm:creator_id": "R000045442",
+    "rm:creator_type": "myself",
+    "rm:created": "2026-09-19T02:55:19Z",
+    "rm:modifier_id": "R000045442",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2026-09-19T03:50:16Z",
+    "presentation_title": {
+     "ja": "光輻射圧による鏡の光学浮上技術の開発(8)",
+     "en": "Study on optical levitation of a mg-scale mirror (8)"
+    },
+    "presenters": {
+     "ja": [
+      {
+       "name": "川﨑拓也"
+      },
+      {
+       "name": "喜多直紀"
+      },
+      {
+       "name": "長野晃士"
+      },
+      {
+       "name": "牛場崇文"
+      },
+      {
+       "name": "道村唯太"
+      },
+      {
+       "name": "松本伸之"
+      },
+      {
+       "name": "安東正樹"
+      }
+     ]
+    },
+    "event": {
+     "ja": "日本物理学会 2018年秋季大会",
+     "en": "JPS 2018 Autumn Meeting"
+    },
+    "publication_date": "2018-09",
+    "from_event_date": "2018-09",
+    "to_event_date": "2018-09",
+    "invited": false,
+    "languages": [
+     "jpn"
+    ],
+    "presentation_type": "oral_presentation",
+    "promoter": {
+     "ja": "日本物理学会",
+     "en": "The Physical Society of Japan"
+    },
+    "location": {
+     "ja": "信州大学",
+     "en": "Shinshu University, Nagano, Japan"
+    },
+    "address_country": "JPN",
+    "is_international_presentation": false,
+    "rm:is_open_access": false
+   },
+   {
+    "@id": "https://api.researchmap.jp/takuya_kawasaki/presentations/54995035",
+    "@type": "presentations",
+    "@reverse": "https://api.researchmap.jp/takuya_kawasaki/presentations",
+    "rm:id": "54995035",
+    "rm:user_id": "R000045442",
+    "display": "disclosed",
+    "major_achievement": false,
+    "rm:creator_id": "R000045442",
+    "rm:creator_type": "myself",
+    "rm:created": "2026-09-19T02:55:19Z",
+    "rm:modifier_id": "R000045442",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2026-09-19T02:55:19Z",
+    "presentation_title": {
+     "ja": "鏡の光学浮上",
+     "en": "Optical Levitation of a Mirror"
+    },
+    "presenters": {
+     "en": [
+      {
+       "name": "T. Kawasaki"
+      },
+      {
+       "name": "K. Nagano"
+      },
+      {
+       "name": "S. Wada"
+      },
+      {
+       "name": "Y. Michimura"
+      },
+      {
+       "name": "T. Ushiba"
+      },
+      {
+       "name": "N. Matsumoto"
+      },
+      {
+       "name": "M. Ando"
+      }
+     ]
+    },
+    "event": {
+     "ja": "第19回 KAGRA Face-to-Face Meeting",
+     "en": "The 19th KAGRA Face-to-Face Meeting"
+    },
+    "publication_date": "2018-05-18",
+    "from_event_date": "2018-05-18",
+    "to_event_date": "2018-05-20",
+    "invited": false,
+    "languages": [
+     "eng"
+    ],
+    "presentation_type": "poster_presentation",
+    "location": {
+     "ja": "大阪市立大学",
+     "en": "Osaka City University, Osaka, Japan"
+    },
+    "address_country": "JPN",
+    "is_international_presentation": true,
+    "rm:is_open_access": false
+   },
+   {
+    "@id": "https://api.researchmap.jp/takuya_kawasaki/presentations/54995043",
+    "@type": "presentations",
+    "@reverse": "https://api.researchmap.jp/takuya_kawasaki/presentations",
+    "rm:id": "54995043",
+    "rm:user_id": "R000045442",
+    "display": "disclosed",
+    "major_achievement": false,
+    "rm:creator_id": "R000045442",
+    "rm:creator_type": "myself",
+    "rm:created": "2026-09-19T02:55:19Z",
+    "rm:modifier_id": "R000045442",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2026-09-19T03:50:16Z",
+    "presentation_title": {
+     "ja": "光輻射圧による鏡の光学浮上技術の開発(5)",
+     "en": "Study on optical levitation of a mg-scale mirror (5)"
+    },
+    "presenters": {
+     "ja": [
+      {
+       "name": "川﨑拓也"
+      },
+      {
+       "name": "長野晃士"
+      },
+      {
+       "name": "和田祥太郎"
+      },
+      {
+       "name": "道村唯太"
+      },
+      {
+       "name": "牛場崇文"
+      },
+      {
+       "name": "松本伸之"
+      },
+      {
+       "name": "安東正樹"
+      }
+     ]
+    },
+    "event": {
+     "ja": "日本物理学会 第73回年次大会",
+     "en": "JPS 73rd Annual Meeting"
+    },
+    "publication_date": "2018-03-25",
+    "from_event_date": "2018-03-25",
+    "to_event_date": "2018-03-25",
+    "invited": false,
+    "languages": [
+     "jpn"
+    ],
+    "presentation_type": "oral_presentation",
+    "promoter": {
+     "ja": "日本物理学会",
+     "en": "The Physical Society of Japan"
+    },
+    "location": {
+     "ja": "東京理科大学",
+     "en": "Tokyo University of Science, Tokyo, Japan"
+    },
+    "address_country": "JPN",
+    "is_international_presentation": false,
+    "rm:is_open_access": false
+   },
+   {
+    "@id": "https://api.researchmap.jp/takuya_kawasaki/presentations/54995034",
+    "@type": "presentations",
+    "@reverse": "https://api.researchmap.jp/takuya_kawasaki/presentations",
+    "rm:id": "54995034",
+    "rm:user_id": "R000045442",
+    "display": "disclosed",
+    "major_achievement": false,
+    "rm:creator_id": "R000045442",
+    "rm:creator_type": "myself",
+    "rm:created": "2026-09-19T02:55:19Z",
+    "rm:modifier_id": "R000045442",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2026-09-19T02:55:19Z",
+    "presentation_title": {
+     "ja": "鏡の光学浮上に関する研究",
+     "en": "Research on Optical Levitation of a Mirror"
+    },
+    "presenters": {
+     "en": [
+      {
+       "name": "T. Kawasaki"
+      },
+      {
+       "name": "K. Nagano"
+      },
+      {
+       "name": "S. Wada"
+      },
+      {
+       "name": "Y. Michimura"
+      },
+      {
+       "name": "T. Ushiba"
+      },
+      {
+       "name": "N. Matsumoto"
+      },
+      {
+       "name": "M. Ando"
+      }
+     ]
+    },
+    "event": {
+     "ja": "第18回 KAGRA Face-to-Face Meeting",
+     "en": "The 18th KAGRA Face-to-Face Meeting"
+    },
+    "publication_date": "2017-12-05",
+    "from_event_date": "2017-12-05",
+    "to_event_date": "2017-12-06",
+    "invited": false,
+    "languages": [
+     "eng"
+    ],
+    "presentation_type": "poster_presentation",
+    "location": {
+     "ja": "東京工業大学",
+     "en": "Tokyo Institute of Technology, Tokyo, Japan"
+    },
+    "address_country": "JPN",
+    "is_international_presentation": true,
+    "rm:is_open_access": false
+   },
+   {
+    "@id": "https://api.researchmap.jp/takuya_kawasaki/presentations/54995042",
+    "@type": "presentations",
+    "@reverse": "https://api.researchmap.jp/takuya_kawasaki/presentations",
+    "rm:id": "54995042",
+    "rm:user_id": "R000045442",
+    "display": "disclosed",
+    "major_achievement": false,
+    "rm:creator_id": "R000045442",
+    "rm:creator_type": "myself",
+    "rm:created": "2026-09-19T02:55:19Z",
+    "rm:modifier_id": "R000045442",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2026-09-19T03:50:16Z",
+    "presentation_title": {
+     "ja": "光輻射圧による鏡の光学浮上技術の開発(2)",
+     "en": "Study on optical levitation of a mg-scale mirror (2)"
+    },
+    "presenters": {
+     "ja": [
+      {
+       "name": "川﨑拓也"
+      },
+      {
+       "name": "長野晃士"
+      },
+      {
+       "name": "和田祥太郎"
+      },
+      {
+       "name": "道村唯太"
+      },
+      {
+       "name": "牛場崇文"
+      },
+      {
+       "name": "松本伸之"
+      },
+      {
+       "name": "安東正樹"
+      }
+     ]
+    },
+    "event": {
+     "ja": "日本物理学会 2017年秋季大会",
+     "en": "JPS 2017 Autumn Meeting"
+    },
+    "publication_date": "2017-09-13",
+    "from_event_date": "2017-09-13",
+    "to_event_date": "2017-09-13",
+    "invited": false,
+    "languages": [
+     "jpn"
+    ],
+    "presentation_type": "oral_presentation",
+    "promoter": {
+     "ja": "日本物理学会",
+     "en": "The Physical Society of Japan"
+    },
+    "location": {
+     "ja": "宇都宮大学",
+     "en": "Utsunomiya University, Tochigi, Japan"
+    },
+    "address_country": "JPN",
+    "is_international_presentation": false,
+    "rm:is_open_access": false
+   }
+  ],
+  "teaching_experience": [
+   {
+    "@id": "https://api.researchmap.jp/takuya_kawasaki/teaching_experience/54996797",
+    "@type": "teaching_experience",
+    "@reverse": "https://api.researchmap.jp/takuya_kawasaki/teaching_experience",
+    "rm:id": "54996797",
+    "rm:user_id": "R000045442",
+    "display": "disclosed",
+    "major_achievement": false,
+    "rm:creator_id": "R000045442",
+    "rm:creator_type": "myself",
+    "rm:created": "2026-09-19T07:32:53Z",
+    "rm:modifier_id": "R000045442",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2026-09-19T08:00:37Z",
+    "subject_name": {
+     "ja": "物理学実験II",
+     "en": "Physics Laboratory II"
+    },
+    "rm:institution_code": "0172000000",
+    "institution_name": {
+     "ja": "東京大学",
+     "en": "The University of Tokyo"
+    },
+    "from_date": "2024",
+    "to_date": "9999",
+    "description": {
+     "ja": "学部3年生必修の実験演習。「レーザー」テーマの担当教員。",
+     "en": "Compulsory laboratory course for third-year undergraduates. In charge of the laser theme."
+    },
+    "teaching_experience_type": "undergraduate_special_subjects",
+    "address_country": "JPN"
+   }
+  ]
+ }
+}

@@ -1,0 +1,1248 @@
+{
+ "fetched_at": "2026-09-19",
+ "source": "ORCID 0000-0001-5839-1700 → Crossref + OpenAlex",
+ "count": 39,
+ "publications": [
+  {
+   "doi": "10.1103/physreva.111.013302",
+   "title": "Analyzing the sensitivity of an atom interferometer with a phase-modulation readout scheme",
+   "container": "Phys. Rev. A",
+   "year": 2025,
+   "volume": "111",
+   "page": "013302",
+   "authors": [
+    {
+     "given": "Takuya",
+     "family": "Kawasaki",
+     "short": "T. Kawasaki"
+    },
+    {
+     "given": "Sotatsu",
+     "family": "Otabe",
+     "short": "S. Otabe"
+    },
+    {
+     "given": "Tomoya",
+     "family": "Sato",
+     "short": "T. Sato"
+    },
+    {
+     "given": "Martin",
+     "family": "Miranda",
+     "short": "M. Miranda"
+    },
+    {
+     "given": "Nobuyuki",
+     "family": "Takei",
+     "short": "N. Takei"
+    },
+    {
+     "given": "Mikio",
+     "family": "Kozuma",
+     "short": "M. Kozuma"
+    }
+   ],
+   "n_authors": 6,
+   "position": 1,
+   "arxiv": "2406.03911",
+   "cited_by": 3
+  },
+  {
+   "doi": "10.1103/physrevapplied.23.044001",
+   "title": "Closed-loop measurements in an atom-interferometer gyroscope with compensation for velocity-dependent phase dispersion",
+   "container": "Phys. Rev. Applied",
+   "year": 2025,
+   "volume": "23",
+   "page": "044001",
+   "authors": [
+    {
+     "given": "Tomoya",
+     "family": "Sato",
+     "short": "T. Sato"
+    },
+    {
+     "given": "Naoki",
+     "family": "Nishimura",
+     "short": "N. Nishimura"
+    },
+    {
+     "given": "Naoki",
+     "family": "Kaku",
+     "short": "N. Kaku"
+    },
+    {
+     "given": "Sotatsu",
+     "family": "Otabe",
+     "short": "S. Otabe"
+    },
+    {
+     "given": "Takuya",
+     "family": "Kawasaki",
+     "short": "T. Kawasaki"
+    },
+    {
+     "given": "Toshiyuki",
+     "family": "Hosoya",
+     "short": "T. Hosoya"
+    },
+    {
+     "given": "Mikio",
+     "family": "Kozuma",
+     "short": "M. Kozuma"
+    }
+   ],
+   "n_authors": 7,
+   "position": 5,
+   "arxiv": "2407.05696",
+   "cited_by": 8
+  },
+  {
+   "doi": "10.1116/5.0128487",
+   "title": "Recent advances toward mesoscopic quantum optomechanics",
+   "container": "AVS Quantum Science",
+   "year": 2023,
+   "volume": "5",
+   "page": "014403",
+   "authors": [
+    {
+     "given": "M.",
+     "family": "Croquette",
+     "short": "M. Croquette"
+    },
+    {
+     "given": "S.",
+     "family": "Deléglise",
+     "short": "S. Deléglise"
+    },
+    {
+     "given": "T.",
+     "family": "Kawasaki",
+     "short": "T. Kawasaki"
+    }
+   ],
+   "n_authors": 45,
+   "position": 3,
+   "arxiv": "",
+   "cited_by": 3
+  },
+  {
+   "doi": "10.3847/1538-4357/acd770",
+   "title": "Search for Gravitational Waves Associated with Fast Radio Bursts Detected by CHIME/FRB during the LIGO–Virgo Observing Run O3a",
+   "container": "ApJ",
+   "year": 2023,
+   "volume": "955",
+   "page": "155",
+   "authors": [
+    {
+     "given": "R.",
+     "family": "Abbott",
+     "short": "R. Abbott"
+    },
+    {
+     "given": "T. D.",
+     "family": "Abbott",
+     "short": "T.D. Abbott"
+    },
+    {
+     "given": "F.",
+     "family": "Acernese",
+     "short": "F. Acernese"
+    }
+   ],
+   "n_authors": 1656,
+   "position": 728,
+   "arxiv": "",
+   "cited_by": 32
+  },
+  {
+   "doi": "10.1103/physrevx.13.041039",
+   "title": "GWTC-3: Compact Binary Coalescences Observed by LIGO and Virgo during the Second Part of the Third Observing Run",
+   "container": "Phys. Rev. X",
+   "year": 2023,
+   "volume": "13",
+   "page": "041039",
+   "authors": [
+    {
+     "given": "R.",
+     "family": "Abbott",
+     "short": "R. Abbott"
+    },
+    {
+     "given": "T. D.",
+     "family": "Abbott",
+     "short": "T.D. Abbott"
+    },
+    {
+     "given": "F.",
+     "family": "Acernese",
+     "short": "F. Acernese"
+    }
+   ],
+   "n_authors": 1658,
+   "position": 738,
+   "arxiv": "",
+   "cited_by": 1786
+  },
+  {
+   "doi": "10.1103/physrevx.13.011048",
+   "title": "Population of Merging Compact Binaries Inferred Using Gravitational Waves through GWTC-3",
+   "container": "Phys. Rev. X",
+   "year": 2023,
+   "volume": "13",
+   "page": "011048",
+   "authors": [
+    {
+     "given": "R.",
+     "family": "Abbott",
+     "short": "R. Abbott"
+    },
+    {
+     "given": "T. D.",
+     "family": "Abbott",
+     "short": "T.D. Abbott"
+    },
+    {
+     "given": "F.",
+     "family": "Acernese",
+     "short": "F. Acernese"
+    }
+   ],
+   "n_authors": 1654,
+   "position": 737,
+   "arxiv": "",
+   "cited_by": 26
+  },
+  {
+   "doi": "10.1093/ptep/ptad112",
+   "title": "Overview of KAGRA: Data transfer and management",
+   "container": "Progress of Theoretical and Experimental Physics",
+   "year": 2023,
+   "volume": "2023",
+   "page": "10A102",
+   "authors": [
+    {
+     "given": "T",
+     "family": "Akutsu",
+     "short": "T. Akutsu"
+    },
+    {
+     "given": "M",
+     "family": "Ando",
+     "short": "M. Ando"
+    },
+    {
+     "given": "K",
+     "family": "Arai",
+     "short": "K. Arai"
+    }
+   ],
+   "n_authors": 247,
+   "position": 75,
+   "arxiv": "",
+   "cited_by": 2
+  },
+  {
+   "doi": "10.1051/0004-6361/202141452",
+   "title": "Search for intermediate-mass black hole binaries in the third observing run of Advanced LIGO and Advanced Virgo",
+   "container": "A&A",
+   "year": 2022,
+   "volume": "659",
+   "page": "A84",
+   "authors": [
+    {
+     "given": "R.",
+     "family": "Abbott",
+     "short": "R. Abbott"
+    },
+    {
+     "given": "T. D.",
+     "family": "Abbott",
+     "short": "T.D. Abbott"
+    },
+    {
+     "given": "F.",
+     "family": "Acernese",
+     "short": "F. Acernese"
+    }
+   ],
+   "n_authors": 1631,
+   "position": 727,
+   "arxiv": "2105.15120",
+   "cited_by": 91
+  },
+  {
+   "doi": "10.3847/1538-4357/ac6ad0",
+   "title": "Narrowband Searches for Continuous and Long-duration Transient Gravitational Waves from Known Pulsars in the LIGO-Virgo Third Observing Run",
+   "container": "ApJ",
+   "year": 2022,
+   "volume": "932",
+   "page": "133",
+   "authors": [
+    {
+     "given": "R.",
+     "family": "Abbott",
+     "short": "R. Abbott"
+    },
+    {
+     "given": "T. D.",
+     "family": "Abbott",
+     "short": "T.D. Abbott"
+    },
+    {
+     "given": "F.",
+     "family": "Acernese",
+     "short": "F. Acernese"
+    }
+   ],
+   "n_authors": 1659,
+   "position": 727,
+   "arxiv": "2112.10990",
+   "cited_by": 74
+  },
+  {
+   "doi": "10.1103/physreva.106.013514",
+   "title": "Angular trapping of a linear-cavity mirror with an optical torsional spring",
+   "container": "Phys. Rev. A",
+   "year": 2022,
+   "volume": "106",
+   "page": "013514",
+   "authors": [
+    {
+     "given": "Takuya",
+     "family": "Kawasaki",
+     "short": "T. Kawasaki"
+    },
+    {
+     "given": "Kentaro",
+     "family": "Komori",
+     "short": "K. Komori"
+    },
+    {
+     "given": "Hiroki",
+     "family": "Fujimoto",
+     "short": "H. Fujimoto"
+    },
+    {
+     "given": "Yuta",
+     "family": "Michimura",
+     "short": "Y. Michimura"
+    },
+    {
+     "given": "Masaki",
+     "family": "Ando",
+     "short": "M. Ando"
+    }
+   ],
+   "n_authors": 5,
+   "position": 1,
+   "arxiv": "2110.13507",
+   "cited_by": 7
+  },
+  {
+   "doi": "10.1103/physrevd.105.122001",
+   "title": "All-sky, all-frequency directional search for persistent gravitational waves from Advanced LIGO’s and Advanced Virgo’s first three observing runs",
+   "container": "Phys. Rev. D",
+   "year": 2022,
+   "volume": "105",
+   "page": "122001",
+   "authors": [
+    {
+     "given": "R.",
+     "family": "Abbott",
+     "short": "R. Abbott"
+    },
+    {
+     "given": "T. D.",
+     "family": "Abbott",
+     "short": "T.D. Abbott"
+    },
+    {
+     "given": "F.",
+     "family": "Acernese",
+     "short": "F. Acernese"
+    }
+   ],
+   "n_authors": 1627,
+   "position": 725,
+   "arxiv": "2110.09834",
+   "cited_by": 34
+  },
+  {
+   "doi": "10.1103/physrevd.105.063030",
+   "title": "Constraints on dark photon dark matter using data from LIGO’s and Virgo’s third observing run",
+   "container": "Phys. Rev. D",
+   "year": 2022,
+   "volume": "105",
+   "page": "063030",
+   "authors": [
+    {
+     "given": "R.",
+     "family": "Abbott",
+     "short": "R. Abbott"
+    },
+    {
+     "given": "T. D.",
+     "family": "Abbott",
+     "short": "T.D. Abbott"
+    },
+    {
+     "given": "F.",
+     "family": "Acernese",
+     "short": "F. Acernese"
+    }
+   ],
+   "n_authors": 1627,
+   "position": 725,
+   "arxiv": "2105.13085",
+   "cited_by": 84
+  },
+  {
+   "doi": "10.1103/physrevd.105.022002",
+   "title": "Search for continuous gravitational waves from 20 accreting millisecond x-ray pulsars in O3 LIGO data",
+   "container": "Phys. Rev. D",
+   "year": 2022,
+   "volume": "105",
+   "page": "022002",
+   "authors": [
+    {
+     "given": "R.",
+     "family": "Abbott",
+     "short": "R. Abbott"
+    },
+    {
+     "given": "T. D.",
+     "family": "Abbott",
+     "short": "T.D. Abbott"
+    },
+    {
+     "given": "F.",
+     "family": "Acernese",
+     "short": "F. Acernese"
+    }
+   ],
+   "n_authors": 1634,
+   "position": 725,
+   "arxiv": "2109.09255",
+   "cited_by": 61
+  },
+  {
+   "doi": "10.1103/physrevlett.129.061104",
+   "title": "Search for Subsolar-Mass Binaries in the First Half of Advanced LIGO’s and Advanced Virgo’s Third Observing Run",
+   "container": "Phys. Rev. Lett.",
+   "year": 2022,
+   "volume": "129",
+   "page": "061104",
+   "authors": [
+    {
+     "given": "R.",
+     "family": "Abbott",
+     "short": "R. Abbott"
+    },
+    {
+     "given": "T. D.",
+     "family": "Abbott",
+     "short": "T.D. Abbott"
+    },
+    {
+     "given": "F.",
+     "family": "Acernese",
+     "short": "F. Acernese"
+    }
+   ],
+   "n_authors": 1417,
+   "position": null,
+   "arxiv": "2109.12197",
+   "cited_by": 70
+  },
+  {
+   "doi": "10.1093/ptep/ptac166",
+   "title": "Input optics systems of the KAGRA detector during O3GK",
+   "container": "Progress of Theoretical and Experimental Physics",
+   "year": 2022,
+   "volume": "2023",
+   "page": "023F01",
+   "authors": [
+    {
+     "given": "T",
+     "family": "Akutsu",
+     "short": "T. Akutsu"
+    },
+    {
+     "given": "M",
+     "family": "Ando",
+     "short": "M. Ando"
+    },
+    {
+     "given": "K",
+     "family": "Arai",
+     "short": "K. Arai"
+    }
+   ],
+   "n_authors": 253,
+   "position": 78,
+   "arxiv": "",
+   "cited_by": 0
+  },
+  {
+   "doi": "10.3847/1538-4357/ac0d52",
+   "title": "Constraints from LIGO O3 Data on Gravitational-wave Emission Due to R-modes in the Glitching Pulsar PSR J0537–6910",
+   "container": "ApJ",
+   "year": 2021,
+   "volume": "922",
+   "page": "71",
+   "authors": [
+    {
+     "given": "R.",
+     "family": "Abbott",
+     "short": "R. Abbott"
+    },
+    {
+     "given": "T. D.",
+     "family": "Abbott",
+     "short": "T.D. Abbott"
+    },
+    {
+     "given": "S.",
+     "family": "Abraham",
+     "short": "S. Abraham"
+    }
+   ],
+   "n_authors": 1595,
+   "position": 715,
+   "arxiv": "2104.14417",
+   "cited_by": 1
+  },
+  {
+   "doi": "10.3847/1538-4357/ac17ea",
+   "title": "Searches for Continuous Gravitational Waves from Young Supernova Remnants in the Early Third Observing Run of Advanced LIGO and Virgo",
+   "container": "ApJ",
+   "year": 2021,
+   "volume": "921",
+   "page": "80",
+   "authors": [
+    {
+     "given": "R.",
+     "family": "Abbott",
+     "short": "R. Abbott"
+    },
+    {
+     "given": "T. D.",
+     "family": "Abbott",
+     "short": "T.D. Abbott"
+    },
+    {
+     "given": "S.",
+     "family": "Abraham",
+     "short": "S. Abraham"
+    }
+   ],
+   "n_authors": 1589,
+   "position": 712,
+   "arxiv": "2105.11641",
+   "cited_by": 3
+  },
+  {
+   "doi": "10.3847/2041-8213/abffcd",
+   "title": "Diving below the Spin-down Limit: Constraints on Gravitational Waves from the Energetic Young Pulsar PSR J0537-6910",
+   "container": "ApJL",
+   "year": 2021,
+   "volume": "913",
+   "page": "L27",
+   "authors": [
+    {
+     "given": "R.",
+     "family": "Abbott",
+     "short": "R. Abbott"
+    },
+    {
+     "given": "T. D.",
+     "family": "Abbott",
+     "short": "T.D. Abbott"
+    },
+    {
+     "given": "S.",
+     "family": "Abraham",
+     "short": "S. Abraham"
+    }
+   ],
+   "n_authors": 1590,
+   "position": 712,
+   "arxiv": "2012.12926",
+   "cited_by": 47
+  },
+  {
+   "doi": "10.3847/2041-8213/ac082e",
+   "title": "Observation of Gravitational Waves from Two Neutron Star–Black Hole Coalescences",
+   "container": "ApJL",
+   "year": 2021,
+   "volume": "915",
+   "page": "L5",
+   "authors": [
+    {
+     "given": "R.",
+     "family": "Abbott",
+     "short": "R. Abbott"
+    },
+    {
+     "given": "T. D.",
+     "family": "Abbott",
+     "short": "T.D. Abbott"
+    },
+    {
+     "given": "S.",
+     "family": "Abraham",
+     "short": "S. Abraham"
+    }
+   ],
+   "n_authors": 1599,
+   "position": 717,
+   "arxiv": "2106.15163",
+   "cited_by": 757
+  },
+  {
+   "doi": "10.1088/1361-6382/abd922",
+   "title": "Vibration isolation systems for the beam splitter and signal recycling mirrors of the KAGRA gravitational wave detector",
+   "container": "Class. Quantum Grav.",
+   "year": 2021,
+   "volume": "38",
+   "page": "065011",
+   "authors": [
+    {
+     "given": "T",
+     "family": "Akutsu",
+     "short": "T. Akutsu"
+    },
+    {
+     "given": "M",
+     "family": "Ando",
+     "short": "M. Ando"
+    },
+    {
+     "given": "K",
+     "family": "Arai",
+     "short": "K. Arai"
+    }
+   ],
+   "n_authors": 244,
+   "position": 76,
+   "arxiv": "",
+   "cited_by": 12
+  },
+  {
+   "doi": "10.1088/1742-6596/1857/1/012002",
+   "title": "Radiative Cooling of the Thermally Isolated System in KAGRA Gravitational Wave Telescope",
+   "container": "J. Phys.: Conf. Ser.",
+   "year": 2021,
+   "volume": "1857",
+   "page": "012002",
+   "authors": [
+    {
+     "given": "T.",
+     "family": "Akutsu",
+     "short": "T. Akutsu"
+    },
+    {
+     "given": "M.",
+     "family": "Ando",
+     "short": "M. Ando"
+    },
+    {
+     "given": "K.",
+     "family": "Arai",
+     "short": "K. Arai"
+    }
+   ],
+   "n_authors": 200,
+   "position": 58,
+   "arxiv": "",
+   "cited_by": 1
+  },
+  {
+   "doi": "10.1103/physreva.104.l031501",
+   "title": "Improving force sensitivity by amplitude measurements of light reflected from a detuned optomechanical cavity",
+   "container": "Phys. Rev. A",
+   "year": 2021,
+   "volume": "104",
+   "page": "L031501",
+   "authors": [
+    {
+     "given": "Kentaro",
+     "family": "Komori",
+     "short": "K. Komori"
+    },
+    {
+     "given": "Takuya",
+     "family": "Kawasaki",
+     "short": "T. Kawasaki"
+    },
+    {
+     "given": "Sotatsu",
+     "family": "Otabe",
+     "short": "S. Otabe"
+    },
+    {
+     "given": "Yutaro",
+     "family": "Enomoto",
+     "short": "Y. Enomoto"
+    },
+    {
+     "given": "Yuta",
+     "family": "Michimura",
+     "short": "Y. Michimura"
+    },
+    {
+     "given": "Masaki",
+     "family": "Ando",
+     "short": "M. Ando"
+    }
+   ],
+   "n_authors": 6,
+   "position": 2,
+   "arxiv": "2105.10510",
+   "cited_by": 4
+  },
+  {
+   "doi": "10.1103/physrevd.104.082004",
+   "title": "All-sky search for continuous gravitational waves from isolated neutron stars in the early O3 LIGO data",
+   "container": "Phys. Rev. D",
+   "year": 2021,
+   "volume": "104",
+   "page": "082004",
+   "authors": [
+    {
+     "given": "R.",
+     "family": "Abbott",
+     "short": "R. Abbott"
+    },
+    {
+     "given": "T. D.",
+     "family": "Abbott",
+     "short": "T.D. Abbott"
+    },
+    {
+     "given": "S.",
+     "family": "Abraham",
+     "short": "S. Abraham"
+    }
+   ],
+   "n_authors": 1588,
+   "position": 711,
+   "arxiv": "2107.00600",
+   "cited_by": 69
+  },
+  {
+   "doi": "10.1103/physrevd.104.102001",
+   "title": "All-sky search for long-duration gravitational-wave bursts in the third Advanced LIGO and Advanced Virgo run",
+   "container": "Phys. Rev. D",
+   "year": 2021,
+   "volume": "104",
+   "page": "102001",
+   "authors": [
+    {
+     "given": "R.",
+     "family": "Abbott",
+     "short": "R. Abbott"
+    },
+    {
+     "given": "T. D.",
+     "family": "Abbott",
+     "short": "T.D. Abbott"
+    },
+    {
+     "given": "F.",
+     "family": "Acernese",
+     "short": "F. Acernese"
+    }
+   ],
+   "n_authors": 1627,
+   "position": 725,
+   "arxiv": "2107.13796",
+   "cited_by": 3
+  },
+  {
+   "doi": "10.1103/physrevd.104.122004",
+   "title": "All-sky search for short gravitational-wave bursts in the third Advanced LIGO and Advanced Virgo run",
+   "container": "Phys. Rev. D",
+   "year": 2021,
+   "volume": "104",
+   "page": "122004",
+   "authors": [
+    {
+     "given": "R.",
+     "family": "Abbott",
+     "short": "R. Abbott"
+    },
+    {
+     "given": "T. D.",
+     "family": "Abbott",
+     "short": "T.D. Abbott"
+    },
+    {
+     "given": "F.",
+     "family": "Acernese",
+     "short": "F. Acernese"
+    }
+   ],
+   "n_authors": 1630,
+   "position": 727,
+   "arxiv": "2107.03701",
+   "cited_by": 81
+  },
+  {
+   "doi": "10.1103/physrevd.104.022005",
+   "title": "Search for anisotropic gravitational-wave backgrounds using data from Advanced LIGO and Advanced Virgo’s first three observing runs",
+   "container": "Phys. Rev. D",
+   "year": 2021,
+   "volume": "104",
+   "page": "022005",
+   "authors": [
+    {
+     "given": "R.",
+     "family": "Abbott",
+     "short": "R. Abbott"
+    },
+    {
+     "given": "T. D.",
+     "family": "Abbott",
+     "short": "T.D. Abbott"
+    },
+    {
+     "given": "S.",
+     "family": "Abraham",
+     "short": "S. Abraham"
+    }
+   ],
+   "n_authors": 1590,
+   "position": 711,
+   "arxiv": "2103.08520",
+   "cited_by": 115
+  },
+  {
+   "doi": "10.1103/physrevd.104.022004",
+   "title": "Upper limits on the isotropic gravitational-wave background from Advanced LIGO and Advanced Virgo’s third observing run",
+   "container": "Phys. Rev. D",
+   "year": 2021,
+   "volume": "104",
+   "page": "022004",
+   "authors": [
+    {
+     "given": "R.",
+     "family": "Abbott",
+     "short": "R. Abbott"
+    },
+    {
+     "given": "T. D.",
+     "family": "Abbott",
+     "short": "T.D. Abbott"
+    },
+    {
+     "given": "S.",
+     "family": "Abraham",
+     "short": "S. Abraham"
+    }
+   ],
+   "n_authors": 1587,
+   "position": 711,
+   "arxiv": "2101.12130",
+   "cited_by": 444
+  },
+  {
+   "doi": "10.1103/physrevlett.126.241102",
+   "title": "Constraints on Cosmic Strings Using Data from the Third Advanced LIGO–Virgo Observing Run",
+   "container": "Phys. Rev. Lett.",
+   "year": 2021,
+   "volume": "126",
+   "page": "241102",
+   "authors": [
+    {
+     "given": "R.",
+     "family": "Abbott",
+     "short": "R. Abbott"
+    },
+    {
+     "given": "T. D.",
+     "family": "Abbott",
+     "short": "T.D. Abbott"
+    },
+    {
+     "given": "S.",
+     "family": "Abraham",
+     "short": "S. Abraham"
+    }
+   ],
+   "n_authors": 1583,
+   "position": 711,
+   "arxiv": "2101.12248",
+   "cited_by": 199
+  },
+  {
+   "doi": "10.1093/ptep/ptab018",
+   "title": "Overview of KAGRA: Calibration, detector characterization, physical environmental monitors, and the geophysics interferometer",
+   "container": "Progress of Theoretical and Experimental Physics",
+   "year": 2021,
+   "volume": "2021",
+   "page": "05A102",
+   "authors": [
+    {
+     "given": "T",
+     "family": "Akutsu",
+     "short": "T. Akutsu"
+    },
+    {
+     "given": "M",
+     "family": "Ando",
+     "short": "M. Ando"
+    },
+    {
+     "given": "K",
+     "family": "Arai",
+     "short": "K. Arai"
+    }
+   ],
+   "n_authors": 243,
+   "position": 75,
+   "arxiv": "2009.09305",
+   "cited_by": 130
+  },
+  {
+   "doi": "10.1088/1361-6382/ab5c95",
+   "title": "An arm length stabilization system for KAGRA and future gravitational-wave detectors",
+   "container": "Class. Quantum Grav.",
+   "year": 2020,
+   "volume": "37",
+   "page": "035004",
+   "authors": [
+    {
+     "given": "T",
+     "family": "Akutsu",
+     "short": "T. Akutsu"
+    },
+    {
+     "given": "M",
+     "family": "Ando",
+     "short": "M. Ando"
+    },
+    {
+     "given": "K",
+     "family": "Arai",
+     "short": "K. Arai"
+    }
+   ],
+   "n_authors": 206,
+   "position": 61,
+   "arxiv": "1910.00955",
+   "cited_by": 16
+  },
+  {
+   "doi": "10.1088/1742-6596/1468/1/012032",
+   "title": "DANCE: Dark matter Axion search with riNg Cavity Experiment",
+   "container": "J. Phys.: Conf. Ser.",
+   "year": 2020,
+   "volume": "1468",
+   "page": "012032",
+   "authors": [
+    {
+     "given": "Yuta",
+     "family": "Michimura",
+     "short": "Y. Michimura"
+    },
+    {
+     "given": "Yuka",
+     "family": "Oshima",
+     "short": "Y. Oshima"
+    },
+    {
+     "given": "Taihei",
+     "family": "Watanabe",
+     "short": "T. Watanabe"
+    },
+    {
+     "given": "Takuya",
+     "family": "Kawasaki",
+     "short": "T. Kawasaki"
+    },
+    {
+     "given": "Hiroki",
+     "family": "Takeda",
+     "short": "H. Takeda"
+    },
+    {
+     "given": "Masaki",
+     "family": "Ando",
+     "short": "M. Ando"
+    },
+    {
+     "given": "Koji",
+     "family": "Nagano",
+     "short": "K. Nagano"
+    },
+    {
+     "given": "Ippei",
+     "family": "Obata",
+     "short": "I. Obata"
+    },
+    {
+     "given": "Tomohiro",
+     "family": "Fujita",
+     "short": "T. Fujita"
+    }
+   ],
+   "n_authors": 9,
+   "position": 4,
+   "arxiv": "1911.05196",
+   "cited_by": 22
+  },
+  {
+   "doi": "10.1007/s41114-020-00026-9",
+   "title": "Prospects for observing and localizing gravitational-wave transients with Advanced LIGO, Advanced Virgo and KAGRA",
+   "container": "Living Rev Relativ",
+   "year": 2020,
+   "volume": "23",
+   "page": "3",
+   "authors": [
+    {
+     "given": "B. P.",
+     "family": "Abbott",
+     "short": "B.P. Abbott"
+    },
+    {
+     "given": "R.",
+     "family": "Abbott",
+     "short": "R. Abbott"
+    },
+    {
+     "given": "T. D.",
+     "family": "Abbott",
+     "short": "T.D. Abbott"
+    }
+   ],
+   "n_authors": 1320,
+   "position": 576,
+   "arxiv": "1304.0670",
+   "cited_by": 1
+  },
+  {
+   "doi": "10.1103/physreva.102.053520",
+   "title": "Optical trapping of the transversal motion for an optically levitated mirror",
+   "container": "Phys. Rev. A",
+   "year": 2020,
+   "volume": "102",
+   "page": "053520",
+   "authors": [
+    {
+     "given": "Takuya",
+     "family": "Kawasaki",
+     "short": "T. Kawasaki"
+    },
+    {
+     "given": "Naoki",
+     "family": "Kita",
+     "short": "N. Kita"
+    },
+    {
+     "given": "Koji",
+     "family": "Nagano",
+     "short": "K. Nagano"
+    },
+    {
+     "given": "Shotaro",
+     "family": "Wada",
+     "short": "S. Wada"
+    },
+    {
+     "given": "Yuya",
+     "family": "Kuwahara",
+     "short": "Y. Kuwahara"
+    },
+    {
+     "given": "Masaki",
+     "family": "Ando",
+     "short": "M. Ando"
+    },
+    {
+     "given": "Yuta",
+     "family": "Michimura",
+     "short": "Y. Michimura"
+    }
+   ],
+   "n_authors": 7,
+   "position": 1,
+   "arxiv": "2007.01630",
+   "cited_by": 5
+  },
+  {
+   "doi": "10.1093/ptep/ptaa056",
+   "title": "Application of independent component analysis to the iKAGRA data",
+   "container": "Progress of Theoretical and Experimental Physics",
+   "year": 2020,
+   "volume": "2020",
+   "page": "053F01",
+   "authors": [
+    {
+     "given": "T",
+     "family": "Akutsu",
+     "short": "T. Akutsu"
+    },
+    {
+     "given": "M",
+     "family": "Ando",
+     "short": "M. Ando"
+    },
+    {
+     "given": "K",
+     "family": "Arai",
+     "short": "K. Arai"
+    }
+   ],
+   "n_authors": 251,
+   "position": 77,
+   "arxiv": "1908.03013",
+   "cited_by": 13
+  },
+  {
+   "doi": "10.1093/ptep/ptaa125",
+   "title": "Overview of KAGRA: Detector design and construction history",
+   "container": "Progress of Theoretical and Experimental Physics",
+   "year": 2020,
+   "volume": "2021",
+   "page": "05A101",
+   "authors": [
+    {
+     "given": "T",
+     "family": "Akutsu",
+     "short": "T. Akutsu"
+    },
+    {
+     "given": "M",
+     "family": "Ando",
+     "short": "M. Ando"
+    },
+    {
+     "given": "K",
+     "family": "Arai",
+     "short": "K. Arai"
+    }
+   ],
+   "n_authors": 200,
+   "position": 58,
+   "arxiv": "2005.05574",
+   "cited_by": 733
+  },
+  {
+   "doi": "10.1093/ptep/ptaa120",
+   "title": "Overview of KAGRA: KAGRA science",
+   "container": "Progress of Theoretical and Experimental Physics",
+   "year": 2020,
+   "volume": "2021",
+   "page": "05A103",
+   "authors": [
+    {
+     "given": "T",
+     "family": "Akutsu",
+     "short": "T. Akutsu"
+    },
+    {
+     "given": "M",
+     "family": "Ando",
+     "short": "M. Ando"
+    },
+    {
+     "given": "K",
+     "family": "Arai",
+     "short": "K. Arai"
+    }
+   ],
+   "n_authors": 246,
+   "position": 76,
+   "arxiv": "2008.02921",
+   "cited_by": 63
+  },
+  {
+   "doi": "10.1088/1361-6382/ab28a9",
+   "title": "First cryogenic test operation of underground km-scale gravitational-wave observatory KAGRA",
+   "container": "Class. Quantum Grav.",
+   "year": 2019,
+   "volume": "36",
+   "page": "165008",
+   "authors": [
+    {
+     "given": "T",
+     "family": "Akutsu",
+     "short": "T. Akutsu"
+    },
+    {
+     "given": "M",
+     "family": "Ando",
+     "short": "M. Ando"
+    },
+    {
+     "given": "K",
+     "family": "Arai",
+     "short": "K. Arai"
+    }
+   ],
+   "n_authors": 203,
+   "position": 59,
+   "arxiv": "1901.03569",
+   "cited_by": 61
+  },
+  {
+   "doi": "10.1088/1361-6382/ab0fcb",
+   "title": "Vibration isolation system with a compact damping system for power recycling mirrors of KAGRA",
+   "container": "Class. Quantum Grav.",
+   "year": 2019,
+   "volume": "36",
+   "page": "095015",
+   "authors": [
+    {
+     "given": "Y",
+     "family": "Akiyama",
+     "short": "Y. Akiyama"
+    },
+    {
+     "given": "T",
+     "family": "Akutsu",
+     "short": "T. Akutsu"
+    },
+    {
+     "given": "M",
+     "family": "Ando",
+     "short": "M. Ando"
+    }
+   ],
+   "n_authors": 174,
+   "position": 54,
+   "arxiv": "1901.03053",
+   "cited_by": 14
+  },
+  {
+   "doi": "10.1038/s41550-018-0658-y",
+   "title": "KAGRA: 2.5 generation interferometric gravitational wave detector",
+   "container": "Nat Astron",
+   "year": 2019,
+   "volume": "3",
+   "page": "35–40",
+   "authors": [
+    {
+     "given": "T.",
+     "family": "Akutsu",
+     "short": "T. Akutsu"
+    },
+    {
+     "given": "M.",
+     "family": "Ando",
+     "short": "M. Ando"
+    },
+    {
+     "given": "K.",
+     "family": "Arai",
+     "short": "K. Arai"
+    }
+   ],
+   "n_authors": 198,
+   "position": 58,
+   "arxiv": "1811.08079",
+   "cited_by": 534
+  }
+ ]
+}

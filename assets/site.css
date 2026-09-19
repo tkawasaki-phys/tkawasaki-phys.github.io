@@ -1,0 +1,314 @@
+/* ============================================================
+   川﨑拓也 — personal site
+   差し色の切り替えは index.html / publications.html の
+   <html data-accent="aomidori"> を "suou" に書き換えるだけ。
+   ============================================================ */
+
+:root{
+  /* ---- 紙と墨（差し色を変えても共通。ここは意図的に固定） ---- */
+  --paper:#FAF9F7;        /* もっと灰色に戻す → #F5F4F2 / もっと白く → #FDFCFB */
+  --paper-2:#FFFFFF;
+  --ink:#1A1A1C;
+  --ink-2:#565250;
+  --ink-3:#8C8682;
+  --rule:#E4DFDB;
+  --rule-2:#EFEBE8;
+
+  /* ---- 差し色 A｜青緑 (OKLCH hue 210°)  ← 既定 ---- */
+  --accent:#106673;
+  --accent-ink:#00505B;
+  --accent-soft:#E7F0F2;
+  --seal-ink:#FFFFFF;
+
+  /* ---- 文字 ---- */
+  --serif:"Newsreader",Georgia,"Times New Roman",serif;
+  --sans:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  --jp-serif:"Zen Old Mincho","Hiragino Mincho ProN","Yu Mincho",serif;
+  --jp-sans:"Zen Kaku Gothic New","Hiragino Sans","Yu Gothic",sans-serif;
+
+  --wrap:940px;
+  color-scheme:light dark;
+}
+
+/* ---- 差し色 B｜蘇芳。使うときは <html data-accent="suou"> ---- */
+:root[data-accent="suou"]{
+  --accent:#9B3B4E;
+  --accent-ink:#7E2E3E;
+  --accent-soft:#F1E4E4;
+  --seal-ink:#FFFFFF;
+}
+
+/* ---- ダーク（OSの設定に追従） ---- */
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#17161A; --paper-2:#1E1D22;
+    --ink:#EDEAE6; --ink-2:#A9A39D; --ink-3:#7B746F;
+    --rule:#302E34; --rule-2:#252329;
+    --accent:#92BBC2; --accent-ink:#A8CDD4; --accent-soft:#1A2527;
+    --seal-ink:#17161A;
+  }
+  :root:not([data-theme="light"])[data-accent="suou"]{
+    --accent:#E3939F; --accent-ink:#F0B4BC; --accent-soft:#2B2025;
+    --seal-ink:#17161A;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#17161A; --paper-2:#1E1D22;
+  --ink:#EDEAE6; --ink-2:#A9A39D; --ink-3:#7B746F;
+  --rule:#302E34; --rule-2:#252329;
+  --accent:#92BBC2; --accent-ink:#A8CDD4; --accent-soft:#1A2527;
+  --seal-ink:#17161A;
+}
+:root[data-theme="dark"][data-accent="suou"]{
+  --accent:#E3939F; --accent-ink:#F0B4BC; --accent-soft:#2B2025;
+  --seal-ink:#17161A;
+}
+
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+@media (prefers-reduced-motion: no-preference){ html{scroll-behavior:smooth} }
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:var(--serif); font-optical-sizing:auto;
+  font-size:17px; line-height:1.72; -webkit-font-smoothing:antialiased;
+}
+html[data-lang="ja"] body{ font-family:var(--jp-sans); font-size:16px; line-height:1.9; }
+h1,h2,h3{margin:0; font-weight:400; text-wrap:balance}
+p{margin:0}
+a{color:inherit}
+img{max-width:100%; height:auto}
+:focus-visible{outline:2px solid var(--accent); outline-offset:3px; border-radius:2px}
+
+/* ============ 上部バー ============ */
+.bar{
+  position:sticky; top:env(safe-area-inset-top, 0px); z-index:20;
+  background:color-mix(in srgb, var(--paper) 88%, transparent);
+  backdrop-filter:blur(10px) saturate(1.2);
+  border-bottom:1px solid var(--rule-2);
+}
+@supports not (backdrop-filter: blur(1px)){ .bar{background:var(--paper)} }
+.bar-in{
+  max-width:var(--wrap); margin-inline:auto;
+  padding-block:11px; padding-inline:20px;
+  display:flex; align-items:center; gap:16px; flex-wrap:wrap;
+}
+.mark{display:flex; align-items:center; gap:10px; text-decoration:none; margin-right:auto}
+.seal{
+  width:24px; height:24px; flex:none; border-radius:2px;
+  background:var(--accent); color:var(--seal-ink);
+  display:grid; place-items:center;
+  font-family:var(--jp-serif); font-size:14px; line-height:1; padding-top:1px;
+}
+.seal svg{width:74%; height:74%; display:block; padding-top:0}
+.mark b{font-family:var(--sans); font-weight:500; font-size:14px; letter-spacing:.01em}
+html[data-lang="ja"] .mark b{font-family:var(--jp-sans)}
+nav{display:flex; gap:18px; font-family:var(--sans); font-size:13.5px}
+html[data-lang="ja"] nav{font-family:var(--jp-sans); font-size:13px}
+nav a{color:var(--ink-2); text-decoration:none; padding-block:2px; border-bottom:1px solid transparent}
+nav a:hover, nav a[aria-current="page"]{color:var(--ink); border-bottom-color:var(--accent)}
+.langs{display:flex; font-family:var(--mono); font-size:11px; border:1px solid var(--rule); border-radius:3px; overflow:hidden}
+.langbtn{background:none; border:0; color:var(--ink-3); cursor:pointer; font:inherit; padding:4px 8px; letter-spacing:.06em}
+.langbtn[aria-pressed="true"]{background:var(--ink); color:var(--paper)}
+
+/* ============ 版面 ============ */
+main{max-width:var(--wrap); margin-inline:auto; padding-inline:20px; padding-block:0 72px}
+section{scroll-margin-top:84px}
+.block{padding-block:52px 0}
+#patents, #talks, #collaboration{padding-block:64px 0}
+
+/* ============ 冒頭 ============ */
+.hero{display:flex; gap:34px; align-items:flex-start; padding-block:64px 52px; flex-wrap:wrap}
+.portrait{
+  width:132px; aspect-ratio:4/5; max-width:100%; flex:none;
+  border:1px solid var(--rule); border-radius:3px;
+  background:linear-gradient(160deg, var(--paper-2), var(--rule-2));
+  display:grid; place-items:center; position:relative; overflow:hidden;
+}
+/* 写真ができたら .portrait の中身を <img src="assets/portrait.jpg" alt=""> に差し替え */
+.portrait img{width:100%; height:100%; object-fit:cover}
+.portrait .mono{font-family:var(--serif); font-size:40px; font-weight:200; color:var(--ink-3); letter-spacing:.02em}
+.portrait .cap{position:absolute; bottom:8px; left:0; right:0; text-align:center; font-family:var(--sans); font-size:9.5px; color:var(--ink-3); letter-spacing:.04em}
+.hero-txt{flex:1 1 320px; min-width:0}
+h1{font-size:clamp(2.25rem,5.5vw,3.1rem); font-weight:300; line-height:1.08; letter-spacing:-.015em}
+html[data-lang="ja"] h1{font-family:var(--jp-serif); font-weight:400; letter-spacing:.02em; line-height:1.2}
+.role{font-family:var(--sans); font-size:13.5px; color:var(--ink-2); margin-top:12px; line-height:1.6}
+html[data-lang="ja"] .role{font-family:var(--jp-sans); font-size:13px}
+.statement{margin-top:22px; font-size:19px; line-height:1.66; max-width:46ch}
+html[data-lang="ja"] .statement{font-family:var(--jp-serif); font-size:17px; line-height:1.95}
+.ids{display:flex; flex-wrap:wrap; gap:6px 8px; margin-top:26px; font-family:var(--mono); font-size:11.5px}
+.ids a{text-decoration:none; color:var(--ink-2); letter-spacing:.02em; border:1px solid var(--rule); border-radius:3px; padding:4px 9px}
+.ids a:hover{border-color:var(--accent); color:var(--accent-ink)}
+
+/* ============ 見出し ============ */
+.head{display:flex; align-items:baseline; gap:14px; border-top:2px solid var(--ink); padding-top:12px; margin-bottom:26px}
+.head h2{font-family:var(--sans); font-size:12px; font-weight:500; letter-spacing:.14em; text-transform:uppercase}
+html[data-lang="ja"] .head h2{font-family:var(--jp-sans); letter-spacing:.08em; font-size:12.5px; text-transform:none}
+.head .side{margin-left:auto; font-family:var(--mono); font-size:11px; color:var(--ink-3)}
+.head .side a{color:var(--ink-3); text-decoration:none; border-bottom:1px solid var(--rule)}
+.head .side a:hover{color:var(--accent-ink); border-bottom-color:var(--accent)}
+
+/* ============ 研究 ============ */
+.theme{padding-block:24px; border-bottom:1px solid var(--rule-2)}
+.theme:first-child{padding-top:0}
+.theme h3{font-size:21px; letter-spacing:-.005em}
+html[data-lang="ja"] .theme h3{font-family:var(--jp-serif); font-size:20px}
+.theme p{color:var(--ink-2); font-size:16px; max-width:64ch; margin-top:6px}
+html[data-lang="ja"] .theme p{font-size:15px; line-height:1.9}
+.keys{display:flex; flex-wrap:wrap; gap:5px 6px; margin-top:10px; font-family:var(--mono); font-size:10.5px; color:var(--ink-3)}
+.keys span{border:1px solid var(--rule-2); border-radius:2px; padding:2px 7px}
+
+/* ============ 業績（台帳組み） ============ */
+.ledger{list-style:none; margin:0; padding:0}
+.pub{display:grid; grid-template-columns:4.25rem 1fr; gap:4px 18px; padding-block:18px; border-bottom:1px solid var(--rule-2)}
+.pub:first-child{padding-top:0}
+/* 年の区切り線の直後だけは padding を戻す。0 のままだと罫線と題名がくっつく */
+.yearsep + .ledger > .pub:first-child{padding-top:18px}
+.pub-year{font-family:var(--mono); font-size:12.5px; color:var(--ink-3); font-variant-numeric:tabular-nums; padding-top:5px}
+.pub-title{font-family:var(--serif); font-size:18px; font-weight:400; line-height:1.4}
+.pub-meta{margin:5px 0 0; font-family:var(--sans); font-size:14.5px; color:var(--ink-2); line-height:1.6}
+.pub-meta .me{color:var(--ink); font-weight:500}
+.pub-meta em{font-family:var(--serif); font-style:italic; font-size:15.5px; color:var(--ink)}
+.pub-tail{display:flex; flex-wrap:wrap; align-items:center; gap:10px; margin-top:9px; font-family:var(--mono); font-size:11px}
+.pub-tail a{color:var(--ink-3); text-decoration:none; border-bottom:1px solid var(--rule)}
+.pub-tail a:hover{color:var(--accent-ink); border-bottom-color:var(--accent)}
+.pos{border:1px solid var(--accent); color:var(--accent-ink); border-radius:2px; padding:1px 6px; letter-spacing:.03em}
+.collab{border:1px solid var(--rule); color:var(--ink-3); border-radius:2px; padding:1px 6px; letter-spacing:.03em}
+.cited{margin-left:auto; color:var(--ink-3); font-variant-numeric:tabular-nums}
+.cited b{color:var(--ink-2); font-weight:500}
+
+/* 中に印（<span class="me">）が入るため data-en / data-ja に載せられない文字列は、
+   両方を書いておいて CSS で出し分ける。JavaScript が無い環境では英語が残る。 */
+.only-ja{display:none}
+html[data-lang="ja"] .only-ja{display:inline}
+html[data-lang="ja"] .only-en{display:none}
+
+/* 経歴・学歴。2 段組みだが、狭いときは素直に 1 列に落とす */
+.cv-cols{display:grid; grid-template-columns:repeat(auto-fit,minmax(310px,1fr)); gap:34px 46px}
+.subhead{font-family:var(--sans); font-size:11px; font-weight:500; letter-spacing:.12em;
+  text-transform:uppercase; color:var(--ink-3); margin:0 0 14px; padding-bottom:7px;
+  border-bottom:1px solid var(--rule)}
+html[data-lang="ja"] .subhead{font-family:var(--jp-sans); letter-spacing:.06em;
+  text-transform:none; font-size:12px}
+.cvlist{list-style:none; margin:0; padding:0}
+.cv{display:grid; grid-template-columns:8.5rem 1fr; gap:2px 16px; padding-block:11px;
+  border-bottom:1px solid var(--rule-2)}
+.cv:first-child{padding-top:0}
+.cv-when{font-family:var(--mono); font-size:11.5px; color:var(--ink-3);
+  font-variant-numeric:tabular-nums; padding-top:3px; white-space:nowrap}
+.cv-what{margin:0; font-family:var(--sans); font-size:14.5px; line-height:1.5}
+html[data-lang="ja"] .cv-what{font-family:var(--jp-sans); font-size:14px}
+.cv-sub{margin:2px 0 0; font-family:var(--sans); font-size:13px; color:var(--ink-2)}
+.cv-badge{margin:7px 0 0; font-family:var(--mono); font-size:11px}
+html[data-lang="ja"] .cv-sub{font-family:var(--jp-sans); font-size:12.5px}
+
+/* 学会発表の区分（国際会議／国内学会） */
+.talk-group + .talk-group{margin-top:34px}
+.talk-group .grouphead{border-top:none; border-bottom:1px solid var(--rule);
+  padding-top:0; padding-bottom:7px; margin-bottom:16px}
+.talk-group .subhead{margin:0; padding:0; border-bottom:none}
+
+/* 論文 / 国際共同研究の論文 の区分見出し */
+/* 節の見出し（論文／国際共同研究の論文）。年の区切りより明らかに強くする */
+.grouphead{display:flex; align-items:baseline; gap:14px; border-top:2px solid var(--ink);
+  padding-top:12px; margin-bottom:6px}
+.grouphead h2{font-family:var(--sans); font-size:12px; font-weight:500; letter-spacing:.14em;
+  text-transform:uppercase}
+html[data-lang="ja"] .grouphead h2{font-family:var(--jp-sans); letter-spacing:.08em;
+  font-size:12.5px; text-transform:none}
+.groupnum{margin-left:auto; display:flex; gap:18px; font-family:var(--mono); font-size:11px;
+  color:var(--ink-3); font-variant-numeric:tabular-nums}
+.note{font-family:var(--sans); font-size:13px; color:var(--ink-2); max-width:70ch;
+  margin:14px 0 0; padding-left:13px; border-left:2px solid var(--rule)}
+html[data-lang="ja"] .note{font-family:var(--jp-sans); font-size:13.5px; line-height:1.85}
+
+/* 業績ページの年の区切り */
+/* 年の区切りは節の中の目印。細い罫線にして節の見出しに従属させる */
+.yearsep{display:flex; align-items:baseline; gap:14px; margin-top:34px; padding-bottom:5px;
+  border-bottom:1px solid var(--rule)}
+.yearsep h2{font-family:var(--mono); font-size:13px; font-variant-numeric:tabular-nums; letter-spacing:.06em}
+.yearsep span{font-family:var(--mono); font-size:10.5px; color:var(--ink-3); margin-left:auto}
+.summary{display:flex; flex-wrap:wrap; gap:10px 28px; font-family:var(--mono); font-size:11.5px; color:var(--ink-3); margin-bottom:8px}
+.summary b{color:var(--ink); font-weight:500; font-variant-numeric:tabular-nums}
+.caveat{font-family:var(--sans); font-size:13px; color:var(--ink-2); max-width:70ch; margin-top:14px; padding-left:13px; border-left:2px solid var(--rule)}
+html[data-lang="ja"] .caveat{font-family:var(--jp-sans); font-size:13.5px; line-height:1.85}
+
+/* ============ ニュース ============ */
+.news{list-style:none; margin:0; padding:0}
+.news li{display:grid; grid-template-columns:5.75rem 1fr; gap:18px; padding-block:12px; border-bottom:1px solid var(--rule-2)}
+.news li:first-child{padding-top:0}
+.news time{font-family:var(--mono); font-size:12px; color:var(--ink-3); font-variant-numeric:tabular-nums}
+.news p{font-size:16px}
+html[data-lang="ja"] .news p{font-size:15px}
+
+/* ============ 連絡先 ============ */
+.contact{display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:26px 40px}
+.contact dt{font-family:var(--sans); font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:var(--ink-3); margin-bottom:5px}
+html[data-lang="ja"] .contact dt{font-family:var(--jp-sans); letter-spacing:.06em; text-transform:none; font-size:11.5px}
+.contact dd{margin:0; font-size:16px; line-height:1.6}
+html[data-lang="ja"] .contact dd{font-size:15px}
+.contact a{color:var(--accent-ink); text-decoration:none; border-bottom:1px solid var(--accent-soft)}
+.contact a:hover{border-bottom-color:var(--accent)}
+
+footer{
+  border-top:1px solid var(--rule); margin-top:60px; padding-block:20px 6px;
+  font-family:var(--mono); font-size:11px; color:var(--ink-3);
+  display:flex; flex-wrap:wrap; gap:8px 20px; line-height:1.7;
+}
+footer .sync{margin-left:auto}
+footer b{color:var(--ink-2); font-weight:500}
+footer a{color:var(--ink-3)}
+
+@media (max-width:680px){
+  .hero{padding-block:40px 36px; gap:24px}
+  .pub{grid-template-columns:1fr; gap:2px}
+  .pub-year{padding-top:0}
+  .cv{grid-template-columns:1fr; gap:2px}
+  .cv-when{padding-top:0}
+  .grouphead{flex-wrap:wrap; gap:4px 14px}
+  .groupnum{margin-left:0; width:100%}
+  .news li{grid-template-columns:1fr; gap:2px}
+  nav{gap:14px; font-size:13px; order:3; width:100%; padding-top:4px; border-top:1px solid var(--rule-2)}
+  .bar-in{padding-block:9px}
+}
+
+
+/* ============ 業績ページの目次 ============ */
+/* 版面は 940px。画面が 1240px 以上あれば左の余白に収まるので、そこでだけ
+   固定して出す。狭いときは本文の上に横並びで置く（隠すと道が無くなる）。 */
+/* 共通の nav{display:flex} に巻き込まれると、見出しが最小幅まで潰れて
+   日本語が 1 文字ずつ縦に折れる。ここは普通の縦積みに戻す。 */
+.pubmap{display:block; margin:26px 0 0; padding-top:18px; border-top:1px solid var(--rule)}
+.pubmap h2{font-family:var(--sans); font-size:10.5px; font-weight:500; letter-spacing:.12em;
+  text-transform:uppercase; color:var(--ink-3); margin-bottom:9px}
+html[data-lang="ja"] .pubmap h2{font-family:var(--jp-sans); letter-spacing:.06em;
+  text-transform:none; font-size:11.5px}
+.pubmap ol{list-style:none; margin:0; padding:0; display:flex; flex-wrap:wrap; gap:6px 8px}
+.pubmap a{display:inline-flex; align-items:baseline; gap:7px; text-decoration:none; white-space:nowrap;
+  font-family:var(--sans); font-size:12px; color:var(--ink-2);
+  border:1px solid var(--rule); border-radius:3px; padding:4px 10px}
+html[data-lang="ja"] .pubmap a{font-family:var(--jp-sans); font-size:12.5px}
+.pubmap a:hover{border-color:var(--accent); color:var(--accent-ink)}
+.pubmap .n{font-family:var(--mono); font-size:10.5px; color:var(--ink-3);
+  font-variant-numeric:tabular-nums}
+.pubmap a[aria-current="true"]{border-color:var(--accent); color:var(--accent-ink);
+  background:var(--accent-soft)}
+
+/* 幅 164px + 余白 24px を版面(940px)の外へ出すので、
+   画面が 940 + 2*(164+24) = 1316px 以上ないと左端がはみ出す。
+   両端に 22px 残して 1360px を境目にする。 */
+@media (min-width:1360px){
+  .pubmap{
+    position:fixed; top:112px; left:calc(50% - 470px - 188px); width:164px;
+    margin:0; padding-top:0; border-top:none; z-index:5;
+  }
+  .pubmap ol{flex-direction:column; gap:0}
+  .pubmap a{
+    display:flex; justify-content:space-between; border:none; border-radius:0;
+    border-left:2px solid var(--rule-2); padding:7px 0 7px 12px;
+  }
+  .pubmap a:hover{border-left-color:var(--accent)}
+  .pubmap a[aria-current="true"]{
+    border-left-color:var(--accent); background:none; font-weight:500;
+  }
+}

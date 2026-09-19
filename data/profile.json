@@ -1,0 +1,223 @@
+{
+  "_comment": "このファイルが本文の唯一の出典です。ここを直して tools/sync.py を走らせるとページが再生成されます。",
+  "orcid": "0000-0001-5839-1700",
+  "mailto": "takuya.kawasaki@phys.s.u-tokyo.ac.jp",
+  "site_url": "https://takuya-kawasaki.com",
+  "seal": "魚",
+  "monogram": "TK",
+  "author_match": {
+    "family": "Kawasaki",
+    "given_prefix": "T"
+  },
+  "collaboration_threshold": 100,
+  "links": [
+    {
+      "label": "ORCID 0000-0001-5839-1700",
+      "url": "https://orcid.org/0000-0001-5839-1700"
+    },
+    {
+      "label": "researchmap",
+      "url": "https://researchmap.jp/takuya_kawasaki"
+    },
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=-ry0xrMAAAAJ"
+    },
+    {
+      "label": "INSPIRE-HEP",
+      "url": "https://inspirehep.net/authors/1926092"
+    },
+    {
+      "label": "arXiv",
+      "url": "https://arxiv.org/a/0000-0001-5839-1700"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/tkawasaki-phys"
+    }
+  ],
+  "en": {
+    "name": "Takuya Kawasaki",
+    "role": "Assistant Professor",
+    "affiliation": "Department of Physics, Graduate School of Science, The University of Tokyo",
+    "statement": "How precisely can an interferometer measure, and what sets that limit? I have worked across a wide range of them — kilometre-scale gravitational-wave detectors, milligram-scale mirrors held by light, interferometers that use atoms rather than photons — and the question has been the same each time. The floor is set by thermal fluctuation and by quantum mechanics itself, and past it lie the quantum behaviour of macroscopic objects, dark matter, and whatever we have not yet found.",
+    "themes": [
+      {
+        "title": "Gravitational-wave telescopes and quantum noise",
+        "body": "The ultimate sensitivity of a gravitational-wave telescope is set, in the end, by quantum noise. How far can that limit be pushed down? I work on this through the optical spring and through the methods of quantum measurement.",
+        "keys": [
+          "gravitational-wave telescope",
+          "standard quantum limit",
+          "optical spring",
+          "detuned cavity",
+          "back-action evasion"
+        ]
+      },
+      {
+        "title": "Macroscopic quantum mechanics",
+        "body": "Quantum noise is not only noise; it is also a signal. I turn the precision-measurement techniques built for gravitational-wave telescopes onto milligram-scale mirrors, and ask how far an object of that size still obeys quantum mechanics.",
+        "keys": [
+          "milligram oscillator",
+          "quantum radiation pressure noise",
+          "optical trapping"
+        ]
+      },
+      {
+        "title": "Atom interferometry",
+        "body": "Using matter waves instead of light gives a larger signal. To push the sensitivity of an atom interferometer I work on a phase-modulation readout scheme and analyse the limit it sets, and on applying it to gyroscopes that measure rotation.",
+        "keys": [
+          "atom interferometer",
+          "phase-modulation readout",
+          "inertial sensing"
+        ]
+      },
+      {
+        "title": "Dark matter searches with precision measurement",
+        "body": "An interferometer sensitive enough for gravitational waves will register other things too. With optical cavities and levitated nanoparticles I look for traces of dark matter that no experiment has caught so far.",
+        "keys": [
+          "axion",
+          "vector dark matter",
+          "levitated nanoparticle"
+        ]
+      }
+    ],
+    "contact": {
+      "Email": "takuya.kawasaki@phys.s.u-tokyo.ac.jp",
+      "Office": "7-3-1 Hongo, Bunkyo-ku, Tokyo 113-0033, Japan"
+    },
+    "pub_caveat": "Author position is shown where the author list is ordered by contribution.",
+    "labels": {
+      "research": "Research",
+      "publications": "Publications",
+      "selected": "Selected publications",
+      "news": "News",
+      "contact": "Contact",
+      "all": "All publications",
+      "back": "Back to top page",
+      "photo": "PHOTO",
+      "synced": "Publications are synced from ORCID, Crossref and OpenAlex",
+      "career": "Appointments",
+      "education": "Education",
+      "grants": "Research grants",
+      "patents": "Patents",
+      "papers": "Papers",
+      "collaboration": "Collaboration papers",
+      "present": "present",
+      "career_head": "Career",
+      "collab_note": "Papers of the LIGO–Virgo–KAGRA collaborations and other large consortia. Author lists run to hundreds or thousands of names in alphabetical order, so author position carries no meaning and is not shown.",
+      "talks": "Conference presentations",
+      "talks_intl": "International conferences",
+      "talks_dom": "Domestic meetings",
+      "invited": "invited",
+      "onthispage": "On this page",
+      "teaching": "Teaching"
+    }
+  },
+  "ja": {
+    "name": "川﨑 拓也",
+    "role": "助教",
+    "affiliation": "東京大学 大学院理学系研究科 物理学専攻",
+    "statement": "干渉計で測れる限界はどこにあり、それを決めているものは何か。重力波望遠鏡からミリグラムスケールの鏡、光のかわりに原子を使う干渉計まで、規模も手段もちがう装置をあつかってきましたが、問いはいつも同じでした。感度の底を決めているのは熱ゆらぎや量子力学そのもので、その先には巨視的な物体の量子性、ダークマター、まだ見つかっていない何かがあります。",
+    "themes": [
+      {
+        "title": "重力波望遠鏡と量子雑音",
+        "body": "重力波望遠鏡の究極的な感度は、最後には量子雑音で決まります。その限界をどう下げるのか。光ばねという現象や、量子測定の手法を使って研究しています。",
+        "keys": [
+          "重力波望遠鏡",
+          "標準量子限界",
+          "光ばね",
+          "離調共振器",
+          "反作用回避"
+        ]
+      },
+      {
+        "title": "巨視的量子力学",
+        "body": "量子雑音は雑音であると同時に、信号でもあります。重力波望遠鏡で培った精密測定の技術をミリグラムスケールの鏡に向け、この大きさの物体がどこまで量子力学に従うのかを調べています。",
+        "keys": [
+          "ミリグラム振動子",
+          "量子輻射圧ゆらぎ",
+          "光トラップ"
+        ]
+      },
+      {
+        "title": "原子干渉計",
+        "body": "光のかわりに物質波を使うと、より大きな信号が得られます。原子干渉計の感度を上げるため、位相変調による読み出し方式を考え、その感度限界を解析しています。回転を測るジャイロスコープへの応用にも取り組んでいます。",
+        "keys": [
+          "原子干渉計",
+          "位相変調読み出し",
+          "慣性センサ"
+        ]
+      },
+      {
+        "title": "精密測定によるダークマター探索",
+        "body": "重力波をとらえられるほど高感度な干渉計は、ほかのものにも反応します。光共振器や浮揚ナノ粒子を使って、まだどの実験もとらえていないダークマターの痕跡を探しています。",
+        "keys": [
+          "アクシオン",
+          "ベクトルダークマター",
+          "浮揚ナノ粒子"
+        ]
+      }
+    ],
+    "contact": {
+      "メール": "takuya.kawasaki@phys.s.u-tokyo.ac.jp",
+      "所在地": "〒113-0033 東京都文京区本郷 7-3-1"
+    },
+    "pub_caveat": "著者順が寄与を表す論文には、著者順を表示しています。",
+    "labels": {
+      "research": "研究",
+      "publications": "業績",
+      "selected": "主要業績",
+      "news": "ニュース",
+      "contact": "連絡先",
+      "all": "業績一覧",
+      "back": "トップページへ戻る",
+      "photo": "写真",
+      "synced": "業績は ORCID・Crossref・OpenAlex から自動同期しています",
+      "career": "職歴",
+      "education": "学歴",
+      "grants": "研究費",
+      "patents": "特許",
+      "papers": "論文",
+      "collaboration": "国際共同研究の論文",
+      "present": "現在",
+      "career_head": "経歴",
+      "collab_note": "LIGO・Virgo・KAGRA をはじめとする大規模共同研究の論文です。著者が数百名から数千名に及び、著者名はアルファベット順に並ぶため、著者順は意味を持ちません。そのため著者順は表示していません。",
+      "talks": "学会発表",
+      "talks_intl": "国際会議",
+      "talks_dom": "国内学会",
+      "invited": "招待講演",
+      "onthispage": "このページの内容",
+      "teaching": "教育"
+    },
+    "also_known_as": [
+      "川﨑 拓也",
+      "川崎 拓也",
+      "川﨑拓也",
+      "川崎拓也",
+      "カワサキ タクヤ"
+    ],
+    "_also_known_as_comment": "﨑(U+FA11) は扱えないシステムがあるため、崎(U+5D0E) 版も機械可読な別名として出す。表示には使わない。"
+  },
+  "news": [
+    {
+      "_comment": "ここに追記してください。date は YYYY-MM または YYYY-MM-DD。空にするとニュース欄自体が出ません。"
+    }
+  ],
+  "abbreviate_threshold": 20,
+  "researchmap": "takuya_kawasaki",
+  "_grant_roles_comment": "researchmap の API は役割欄が空のことがある。KAKEN で確認した結果をここに書く。ここに無い課題は役割を表示しない——確認できていないものを「研究代表者」と書くと業績の水増しになるため。",
+  "grant_roles": [
+    {
+      "grant_number": "24K22874",
+      "role": "principal_investigator",
+      "_verified": "https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-24K22874/ で研究代表者と確認（2026-09-18）"
+    }
+  ],
+  "_text_overrides_comment": "researchmap に英語が入っていない欄の訳。日本語の文字列をそのまま鍵にする。",
+  "text_overrides": {
+    "特別研究員（DC1）": "JSPS Research Fellow (DC1)",
+    "理科一類": "Natural Sciences I"
+  },
+  "_seal_comment": "サイトマーク（ヤマメ）。seal_svg があればそれを、無ければ seal の文字を出す。viewBox 0 0 24 24、色は currentColor。体側の丸はパーマークで、fill-rule=\"evenodd\" により本体から抜いている（背景色を直書きしないので差し色を変えても追従する）。差し替えはこの 1 項目だけ。",
+  "seal_svg": "<path fill-rule=\"evenodd\" d=\"M1.80 12.4 C2.60 9.60 5.2 7.20 9.50 7.20 C13.5 7.20 16.3 9.30 17.60 10.61 L17.60 13.39 C16.3 14.70 13.5 16.80 9.50 16.80 C5.2 16.80 2.60 14.40 1.80 12.4ZM5.65 11.60A1.05 1.05 0 1 0 7.75 11.60A1.05 1.05 0 1 0 5.65 11.60ZM7.98 11.60A1.05 1.05 0 1 0 10.08 11.60A1.05 1.05 0 1 0 7.98 11.60ZM10.30 11.60A1.05 1.05 0 1 0 12.40 11.60A1.05 1.05 0 1 0 10.30 11.60ZM12.62 11.60A1.05 1.05 0 1 0 14.73 11.60A1.05 1.05 0 1 0 12.62 11.60ZM14.95 11.60A1.05 1.05 0 1 0 17.05 11.60A1.05 1.05 0 1 0 14.95 11.60ZM7.24 14.30A0.36 0.36 0 1 0 7.96 14.30A0.36 0.36 0 1 0 7.24 14.30ZM9.57 14.30A0.36 0.36 0 1 0 10.28 14.30A0.36 0.36 0 1 0 9.57 14.30ZM11.89 14.30A0.36 0.36 0 1 0 12.61 14.30A0.36 0.36 0 1 0 11.89 14.30ZM14.22 14.30A0.36 0.36 0 1 0 14.93 14.30A0.36 0.36 0 1 0 14.22 14.30ZM3.10 10.50A1.40 1.40 0 1 0 5.90 10.50A1.40 1.40 0 1 0 3.10 10.50Z\"/><path d=\"M17.30 10.41 L22.50 7.30 C21.80 10.59 21.80 13.41 22.50 16.70 L17.30 13.59ZM8.4 7.70 C9.3 5.00 11.5 5.40 12.5 7.60ZM14.8 9.40 C15.3 8.20 16.1 8.40 16.2 9.70ZM6.8 15.30 C6.2 18.00 7.6 18.20 9.0 16.10ZM12.6 15.50 C13.0 17.80 14.2 17.50 14.8 15.20Z\"/>"
+}
