@@ -40,7 +40,7 @@
     "name": "Takuya Kawasaki",
     "role": "Assistant Professor",
     "affiliation": "Department of Physics, Graduate School of Science, The University of Tokyo",
-    "statement": "How precisely can an interferometer measure, and what sets that limit? I have worked across a wide range of them — kilometre-scale gravitational-wave detectors, milligram-scale mirrors held by light, interferometers that use atoms rather than photons — and the question has been the same each time. The floor is set by thermal fluctuation and by quantum mechanics itself, and past it lie the quantum behaviour of macroscopic objects, dark matter, and whatever we have not yet found.",
+    "statement": "How precisely can an interferometer measure, and what sets that limit? I have worked across a wide range of them — kilometer-scale gravitational-wave detectors, milligram-scale mirrors held by light, interferometers that use atoms rather than photons — and the question has been the same each time. The floor is set by thermal fluctuation and by quantum mechanics itself, and past it lie the quantum behavior of macroscopic objects, dark matter, and whatever we have not yet found.",
     "themes": [
       {
         "title": "Gravitational-wave telescopes and quantum noise",
@@ -64,7 +64,7 @@
       },
       {
         "title": "Atom interferometry",
-        "body": "Using matter waves instead of light gives a larger signal. To push the sensitivity of an atom interferometer I work on a phase-modulation readout scheme and analyse the limit it sets, and on applying it to gyroscopes that measure rotation.",
+        "body": "Using matter waves instead of light gives a larger signal. To push the sensitivity of an atom interferometer I work on a phase-modulation readout scheme and analyze the limit it sets, and on applying it to gyroscopes that measure rotation.",
         "keys": [
           "atom interferometer",
           "phase-modulation readout",
