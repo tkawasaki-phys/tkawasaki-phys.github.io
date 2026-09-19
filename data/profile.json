@@ -43,10 +43,10 @@
     "statement": "How precisely can an interferometer measure, and what sets that limit? I have worked across a wide range of them — kilometer-scale gravitational-wave detectors, milligram-scale mirrors held by light, interferometers that use atoms rather than photons — and the question has been the same each time. The floor is set by thermal fluctuation and by quantum mechanics itself, and past it lie the quantum behavior of macroscopic objects, dark matter, and whatever we have not yet found.",
     "themes": [
       {
-        "title": "Gravitational-wave telescopes and quantum noise",
-        "body": "The ultimate sensitivity of a gravitational-wave telescope is set, in the end, by quantum noise. How far can that limit be pushed down? I work on this through the optical spring and through the methods of quantum measurement.",
+        "title": "Gravitational-wave detectors and quantum noise",
+        "body": "The ultimate sensitivity of a gravitational-wave detector is set, in the end, by quantum noise. How far can that limit be pushed down? I work on this through the optical spring and through the methods of quantum measurement.",
         "keys": [
-          "gravitational-wave telescope",
+          "gravitational-wave detector",
           "standard quantum limit",
           "optical spring",
           "detuned cavity",
@@ -55,7 +55,7 @@
       },
       {
         "title": "Macroscopic quantum mechanics",
-        "body": "Quantum noise is not only noise; it is also a signal. I turn the precision-measurement techniques built for gravitational-wave telescopes onto milligram-scale mirrors, and ask how far an object of that size still obeys quantum mechanics.",
+        "body": "Quantum noise is not only noise; it is also a signal. I turn the precision-measurement techniques built for gravitational-wave detectors onto milligram-scale mirrors, and ask how far an object of that size still obeys quantum mechanics.",
         "keys": [
           "milligram oscillator",
           "quantum radiation pressure noise",
