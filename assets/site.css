@@ -94,13 +94,19 @@ img{max-width:100%; height:auto}
   display:flex; align-items:center; gap:16px; flex-wrap:wrap;
 }
 .mark{display:flex; align-items:center; gap:10px; text-decoration:none; margin-right:auto}
+/* サイトマーク。印の地は図（seal_svg）の側で塗るので、ここでは敷かない。
+   seal_svg を空にして文字に戻したときだけ、CSS で地を塗る（.seal-txt）。 */
 .seal{
-  width:24px; height:24px; flex:none; border-radius:2px;
-  background:var(--accent); color:var(--seal-ink);
+  width:24px; height:24px; flex:none;
+  color:var(--accent);
   display:grid; place-items:center;
-  font-family:var(--jp-serif); font-size:14px; line-height:1; padding-top:1px;
 }
-.seal svg{width:74%; height:74%; display:block; padding-top:0}
+.seal svg{width:100%; height:100%; display:block}
+.seal-txt{
+  background:var(--accent); color:var(--seal-ink); border-radius:2px;
+  font-family:var(--serif); font-size:12px; font-weight:500; letter-spacing:.02em;
+  line-height:1; padding-top:1px;
+}
 .mark b{font-family:var(--sans); font-weight:500; font-size:14px; letter-spacing:.01em}
 html[data-lang="ja"] .mark b{font-family:var(--jp-sans)}
 nav{display:flex; gap:18px; font-family:var(--sans); font-size:13.5px}

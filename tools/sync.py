@@ -292,13 +292,14 @@ def citation_html(pub, labels):
 def seal():
     """サイトマーク。図（seal_svg）があれば図を、無ければ文字（seal）を出す。
 
-    図は色を currentColor で描くので、差し色を変えても追従する。
+    図は色を currentColor で描くので、差し色を変えても追従する。地も図の側で塗る。
+    文字に戻したときは CSS で地を塗るので、区別できるよう seal-txt を足す。
     """
     svg = (PROFILE.get("seal_svg") or "").strip()
     if svg:
         return ('<span class="seal" aria-hidden="true">'
                 '<svg viewBox="0 0 24 24" fill="currentColor">%s</svg></span>' % svg)
-    return '<span class="seal" aria-hidden="true">%s</span>' % esc(PROFILE.get("seal", ""))
+    return '<span class="seal seal-txt" aria-hidden="true">%s</span>' % esc(PROFILE.get("seal", ""))
 
 
 def bar(active):
