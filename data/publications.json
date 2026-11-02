@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-25",
+ "fetched_at": "2026-11-02",
  "source": "ORCID 0000-0001-5839-1700 → Crossref + OpenAlex",
  "count": 39,
  "publications": [
@@ -181,7 +181,7 @@
    "n_authors": 1658,
    "position": 738,
    "arxiv": "",
-   "cited_by": 1760
+   "cited_by": 1768
   },
   {
    "doi": "10.1103/physrevx.13.011048",
@@ -268,7 +268,7 @@
    "n_authors": 1631,
    "position": 727,
    "arxiv": "2105.15120",
-   "cited_by": 86
+   "cited_by": 91
   },
   {
    "doi": "10.3847/1538-4357/ac6ad0",
@@ -297,7 +297,7 @@
    "n_authors": 1659,
    "position": 727,
    "arxiv": "2112.10990",
-   "cited_by": 69
+   "cited_by": 74
   },
   {
    "doi": "10.1103/physreva.106.013514",
@@ -452,7 +452,7 @@
    "n_authors": 1417,
    "position": null,
    "arxiv": "2109.12197",
-   "cited_by": 66
+   "cited_by": 71
   },
   {
    "doi": "10.1093/ptep/ptac166",
@@ -597,7 +597,7 @@
    "n_authors": 1599,
    "position": 717,
    "arxiv": "2106.15163",
-   "cited_by": 763
+   "cited_by": 769
   },
   {
    "doi": "10.1088/1361-6382/abd922",
@@ -728,7 +728,7 @@
    "n_authors": 1588,
    "position": 711,
    "arxiv": "2107.00600",
-   "cited_by": 66
+   "cited_by": 65
   },
   {
    "doi": "10.1103/physrevd.104.102001",
@@ -786,7 +786,7 @@
    "n_authors": 1630,
    "position": 727,
    "arxiv": "2107.03701",
-   "cited_by": 79
+   "cited_by": 85
   },
   {
    "doi": "10.1103/physrevd.104.022005",
@@ -815,7 +815,7 @@
    "n_authors": 1590,
    "position": 711,
    "arxiv": "2103.08520",
-   "cited_by": 108
+   "cited_by": 113
   },
   {
    "doi": "10.1103/physrevd.104.022004",
@@ -844,7 +844,7 @@
    "n_authors": 1587,
    "position": 711,
    "arxiv": "2101.12130",
-   "cited_by": 417
+   "cited_by": 419
   },
   {
    "doi": "10.1103/physrevlett.126.241102",
@@ -873,7 +873,7 @@
    "n_authors": 1583,
    "position": 711,
    "arxiv": "2101.12248",
-   "cited_by": 188
+   "cited_by": 192
   },
   {
    "doi": "10.1093/ptep/ptab018",
@@ -990,7 +990,7 @@
    "n_authors": 9,
    "position": 4,
    "arxiv": "1911.05196",
-   "cited_by": 28
+   "cited_by": 27
   },
   {
    "doi": "10.1007/s41114-020-00026-9",
@@ -1126,7 +1126,7 @@
    "n_authors": 200,
    "position": 58,
    "arxiv": "2005.05574",
-   "cited_by": 734
+   "cited_by": 732
   },
   {
    "doi": "10.1093/ptep/ptaa120",
@@ -1155,7 +1155,7 @@
    "n_authors": 246,
    "position": 76,
    "arxiv": "2008.02921",
-   "cited_by": 57
+   "cited_by": 2
   },
   {
    "doi": "10.1088/1361-6382/ab28a9",
@@ -1242,7 +1242,7 @@
    "n_authors": 198,
    "position": 58,
    "arxiv": "1811.08079",
-   "cited_by": 537
+   "cited_by": 544
   }
  ]
 }
