@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-02",
+ "fetched_at": "2026-11-09",
  "source": "ORCID 0000-0001-5839-1700 → Crossref + OpenAlex",
  "count": 39,
  "publications": [
@@ -152,7 +152,7 @@
    "n_authors": 1656,
    "position": 728,
    "arxiv": "",
-   "cited_by": 32
+   "cited_by": 48
   },
   {
    "doi": "10.1103/physrevx.13.041039",
@@ -181,7 +181,7 @@
    "n_authors": 1658,
    "position": 738,
    "arxiv": "",
-   "cited_by": 1768
+   "cited_by": 2675
   },
   {
    "doi": "10.1103/physrevx.13.011048",
@@ -210,7 +210,7 @@
    "n_authors": 1654,
    "position": 737,
    "arxiv": "",
-   "cited_by": 26
+   "cited_by": 1230
   },
   {
    "doi": "10.1093/ptep/ptad112",
@@ -239,7 +239,7 @@
    "n_authors": 247,
    "position": 75,
    "arxiv": "",
-   "cited_by": 2
+   "cited_by": 3
   },
   {
    "doi": "10.1051/0004-6361/202141452",
@@ -268,7 +268,7 @@
    "n_authors": 1631,
    "position": 727,
    "arxiv": "2105.15120",
-   "cited_by": 91
+   "cited_by": 118
   },
   {
    "doi": "10.3847/1538-4357/ac6ad0",
@@ -297,7 +297,7 @@
    "n_authors": 1659,
    "position": 727,
    "arxiv": "2112.10990",
-   "cited_by": 74
+   "cited_by": 89
   },
   {
    "doi": "10.1103/physreva.106.013514",
@@ -336,7 +336,7 @@
    "n_authors": 5,
    "position": 1,
    "arxiv": "2110.13507",
-   "cited_by": 7
+   "cited_by": 8
   },
   {
    "doi": "10.1103/physrevd.105.122001",
@@ -365,7 +365,7 @@
    "n_authors": 1627,
    "position": 725,
    "arxiv": "2110.09834",
-   "cited_by": 32
+   "cited_by": 43
   },
   {
    "doi": "10.1103/physrevd.105.063030",
@@ -394,7 +394,7 @@
    "n_authors": 1627,
    "position": 725,
    "arxiv": "2105.13085",
-   "cited_by": 78
+   "cited_by": 104
   },
   {
    "doi": "10.1103/physrevd.105.022002",
@@ -423,7 +423,7 @@
    "n_authors": 1634,
    "position": 725,
    "arxiv": "2109.09255",
-   "cited_by": 59
+   "cited_by": 71
   },
   {
    "doi": "10.1103/physrevlett.129.061104",
@@ -452,7 +452,7 @@
    "n_authors": 1417,
    "position": null,
    "arxiv": "2109.12197",
-   "cited_by": 71
+   "cited_by": 100
   },
   {
    "doi": "10.1093/ptep/ptac166",
@@ -510,7 +510,7 @@
    "n_authors": 1595,
    "position": 715,
    "arxiv": "2104.14417",
-   "cited_by": 1
+   "cited_by": 69
   },
   {
    "doi": "10.3847/1538-4357/ac17ea",
@@ -539,7 +539,7 @@
    "n_authors": 1589,
    "position": 712,
    "arxiv": "2105.11641",
-   "cited_by": 3
+   "cited_by": 82
   },
   {
    "doi": "10.3847/2041-8213/abffcd",
@@ -568,7 +568,7 @@
    "n_authors": 1590,
    "position": 712,
    "arxiv": "2012.12926",
-   "cited_by": 50
+   "cited_by": 58
   },
   {
    "doi": "10.3847/2041-8213/ac082e",
@@ -597,7 +597,7 @@
    "n_authors": 1599,
    "position": 717,
    "arxiv": "2106.15163",
-   "cited_by": 769
+   "cited_by": 971
   },
   {
    "doi": "10.1088/1361-6382/abd922",
@@ -699,7 +699,7 @@
    "n_authors": 6,
    "position": 2,
    "arxiv": "2105.10510",
-   "cited_by": 4
+   "cited_by": 5
   },
   {
    "doi": "10.1103/physrevd.104.082004",
@@ -728,7 +728,7 @@
    "n_authors": 1588,
    "position": 711,
    "arxiv": "2107.00600",
-   "cited_by": 65
+   "cited_by": 76
   },
   {
    "doi": "10.1103/physrevd.104.102001",
@@ -757,7 +757,7 @@
    "n_authors": 1627,
    "position": 725,
    "arxiv": "2107.13796",
-   "cited_by": 3
+   "cited_by": 62
   },
   {
    "doi": "10.1103/physrevd.104.122004",
@@ -786,7 +786,7 @@
    "n_authors": 1630,
    "position": 727,
    "arxiv": "2107.03701",
-   "cited_by": 85
+   "cited_by": 105
   },
   {
    "doi": "10.1103/physrevd.104.022005",
@@ -815,7 +815,7 @@
    "n_authors": 1590,
    "position": 711,
    "arxiv": "2103.08520",
-   "cited_by": 113
+   "cited_by": 125
   },
   {
    "doi": "10.1103/physrevd.104.022004",
@@ -844,7 +844,7 @@
    "n_authors": 1587,
    "position": 711,
    "arxiv": "2101.12130",
-   "cited_by": 419
+   "cited_by": 510
   },
   {
    "doi": "10.1103/physrevlett.126.241102",
@@ -873,7 +873,7 @@
    "n_authors": 1583,
    "position": 711,
    "arxiv": "2101.12248",
-   "cited_by": 192
+   "cited_by": 233
   },
   {
    "doi": "10.1093/ptep/ptab018",
@@ -902,7 +902,7 @@
    "n_authors": 243,
    "position": 75,
    "arxiv": "2009.09305",
-   "cited_by": 123
+   "cited_by": 175
   },
   {
    "doi": "10.1088/1361-6382/ab5c95",
@@ -990,7 +990,7 @@
    "n_authors": 9,
    "position": 4,
    "arxiv": "1911.05196",
-   "cited_by": 27
+   "cited_by": 35
   },
   {
    "doi": "10.1007/s41114-020-00026-9",
@@ -1019,7 +1019,7 @@
    "n_authors": 1320,
    "position": 576,
    "arxiv": "1304.0670",
-   "cited_by": 1
+   "cited_by": 1369
   },
   {
    "doi": "10.1103/physreva.102.053520",
@@ -1126,7 +1126,7 @@
    "n_authors": 200,
    "position": 58,
    "arxiv": "2005.05574",
-   "cited_by": 732
+   "cited_by": 1001
   },
   {
    "doi": "10.1093/ptep/ptaa120",
@@ -1155,7 +1155,7 @@
    "n_authors": 246,
    "position": 76,
    "arxiv": "2008.02921",
-   "cited_by": 2
+   "cited_by": 78
   },
   {
    "doi": "10.1088/1361-6382/ab28a9",
@@ -1184,7 +1184,7 @@
    "n_authors": 203,
    "position": 59,
    "arxiv": "1901.03569",
-   "cited_by": 58
+   "cited_by": 67
   },
   {
    "doi": "10.1088/1361-6382/ab0fcb",
@@ -1242,7 +1242,7 @@
    "n_authors": 198,
    "position": 58,
    "arxiv": "1811.08079",
-   "cited_by": 544
+   "cited_by": 669
   }
  ]
 }
